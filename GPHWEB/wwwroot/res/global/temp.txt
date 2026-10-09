@@ -1,0 +1,6 @@
+# Do not remove the following line, or various programs
+# that require network functionality will fail.
+127.0.0.1   localhost localhost.localdomain
+127.0.0.1   cp01-game-dudai-127.0.0.1
+192.168.1.4	hf36
+192.168.1.4	hf37

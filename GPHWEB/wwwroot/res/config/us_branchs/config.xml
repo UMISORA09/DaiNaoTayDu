@@ -1,0 +1,30 @@
+<config>
+	<lang>【大闹天宫】北美英文</lang>
+	<langTag>us</langTag>
+	<!-- 是否直接做简繁体转换-->
+	<iscn>0</iscn>
+	<!-- 是否拆分导出（1导出xml,0导出txt）-->
+	<isxml>1</isxml>
+	<swfdll>//192.168.1.5/csvWeb/dntg/dll/TiangongDll.swf</swfdll>
+	<!-- java 配置文件路径 和 保存路径 （若配置和保存路径一致，导出时直接进行完整的覆盖）-->
+	<javapath>//192.168.1.5/tiangong.com/web/java/us</javapath>
+	<javasavepath>//192.168.1.5/tiangong.com/web/java/us</javasavepath>
+	
+	<!-- flash 配置文件路径 和 保存路径（若配置和保存路径一致，导出时直接进行完整的覆盖） -->
+	<flashpath>//192.168.1.5/tiangong.com/web/config/us</flashpath>
+	<flashsavepath>//192.168.1.5/tiangong.com/web/config/us</flashsavepath>
+	
+	<!-- 翻译字典位置（文件夹） -->
+	<dictpath>//192.168.1.5/csvWeb/dntg/trans/us/dirc</dictpath>
+	<!-- xml保存位置 -->
+	<xmlpath>//192.168.1.5/csvWeb/dntg/trans/us/</xmlpath>
+	<!-- 待翻译文件导出位置（文件夹） -->
+	<untranpath>//192.168.1.5/csvWeb/dntg/trans/us/need</untranpath>
+	<!-- 需要被添加进待翻译列表的位置（文件夹）导出自fla文件 -->
+	<addpath>//192.168.1.5/csvWeb/dntg/trans/us/add</addpath>
+	<!-- 旧的配置文件目录（文件夹） -->
+	<comppath>//192.168.1.5/csvWeb/dntg/trans/us/old</comppath>
+	
+	<transefrompath>//192.168.1.5/csvWeb/dntg/trans/thai/lang/us_language.lang</transefrompath>
+	
+</config>

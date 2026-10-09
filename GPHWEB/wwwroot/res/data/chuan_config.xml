@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<platform>
+	<config>
+		<prefixes>
+			<prefix name="lan-root" value="assets/zhcn/" />
+			<!--用于测试-->
+			<prefix name="module-pre" value="assets/zhcn/" />
+
+			<prefix name="res-global" value="global/" />
+			<prefix name="res-root" value="tw/r/" />
+			<prefix name="res-avater" value="tw/r/" />
+			<prefix name="cfg-pre" value="config/zhcn/" />
+			<prefix name="cfg-root" value="config/zhcn/" />
+			
+			<prefix name="res-c" value="tw/r/" />
+			<prefix name="res-d" value="tw/r/" />
+
+		</prefixes>
+		<webs>
+
+			<web name="so_define" prefix="cfg-pre" value="so.dat" />
+			<web name="get_flashplayer" value="http://get.adobe.com/cn/flashplayer/" />
+			<web name="jihuoma" value="http://www.baidu.com/" />
+		</webs>
+		<resources>
+			<resource v='1' name="lib" prefix="lan-root" value="lib{0}" />
+			<resource v='1' name="baseFace" prefix="lan-root" value="baseFace{0}" />
+			<resource v='1' name="gameui" prefix="lan-root" value="gameUI{0}" />
+
+			<resource v='1' name='chooseRole' prefix="lan-root" value="chooseRole{0}" />
+			<resource v='1' name='chooseRolePlugin' prefix="lan-root" value="chooseRolePlugin{0}" />
+			
+			<resource v='1' name='createRoleUI' prefix="lan-root" value="createRoleV2{0}" />
+			<resource v='1' name='createRolePlugin' prefix="lan-root" value="createRolePlugin{0}" />
+			
+			<resource v='1' name='skillPanelPlugin' prefix="lan-root" value="skillPanelPlugin{0}" />
+			<resource v='1' name='skillUI' prefix="lan-root" value="skillUI{0}" />
+			
+			<resource v='1' name='trumpPanelPlugin' prefix="lan-root" value="trumpPanelPlugin{0}" />
+			<resource v='1' name='trumpUI' prefix="lan-root" value="fabaoUI{0}" />
+			
+			<resource v='1' name='worlMapUI' prefix="lan-root" value="worldMapUI{0}" />
+			<resource v='1' name='mapPlugin' prefix="lan-root" value="mapPlugin{0}" />
+
+			<resource v='1' name='friendUI' prefix="lan-root" value="friendUI{0}" />
+			<resource v='1' name='friendPlugin' prefix="lan-root" value="friendPlugin{0}" />
+
+			<resource v='1' name='boothUI' prefix="lan-root" value="boothUI{0}" />
+			<resource v='1' name='boothPlugin' prefix="lan-root" value="boothPlugin{0}" />
+			
+			<resource v='1' name='teamUI' prefix="lan-root" value="teamUI{0}" />
+			<resource v='1' name='teamPlugin' prefix="lan-root" value="teamPlugin{0}" />
+			
+			<resource v='1' name='taskUI' prefix="lan-root" value="taskUI{0}" />
+			<resource v='1' name='taskPlugin' prefix="lan-root" value="taskPlugin{0}" />
+			
+			<resource v='1' name='clanUI' prefix="lan-root" value="clanUI{0}" />
+			<resource v='1' name='clanPlugin' prefix="lan-root" value="clanPlugin{0}" />
+			
+			<resource v='1' name='daoFaUI' prefix="lan-root" value="xiantiandaofa{0}" />
+			<resource v='1' name='daoFaPlugin' prefix="lan-root" value="daoFaPlugin{0}" />
+			
+			<resource v='1' name='tradeUI' prefix="lan-root" value="transactionUI{0}" />
+			<resource v='1' name='gStoreUI' prefix="lan-root" value="gStoreUI{0}" />
+			<resource v='1' name='bagUI' prefix="lan-root" value="bagUI{0}" />
+			<resource v='1' name='guajiUI' prefix="lan-root" value="guaji{0}" />
+			<resource v='1' name='tasknew' prefix="lan-root" value="tasknew{0}" />
+			
+			<resource v='1' name='roleUI' prefix="lan-root" value="roleUI{0}" />
+			<resource v='1' name='otherRoleUI' prefix="lan-root" value="otherRoleUI{0}" />
+			
+			<resource v='1' name='settingUI' prefix="lan-root" value="settingUI{0}" />
+			<resource v='1' name='gemUI' prefix="lan-root" value="gemUI{0}" />
+			<resource v='1' name='mountUI' prefix="lan-root" value="zuoqi{0}" />
+			<resource v='1' name='intensifyUI' prefix="lan-root" value="intensifyUI{0}" />
+			<resource v='1' name='shenshuUI' prefix="lan-root" value="shenshuUI{0}" />
+			<resource v='1' name='jingjiUI' prefix="lan-root" value="jingjichang{0}" />
+			<resource v='1' name='jingjiPKUI' prefix="lan-root" value="jingjiPK{0}" />
+			<resource v='1' name='pataUI' prefix="lan-root" value="pata{0}" />
+			<resource v='1' name='huodong' prefix="lan-root" value="huodong{0}" />
+			<resource v='1' name='xianfajingjieUI' prefix="lan-root" value="xianfajingjieUI{0}" />
+			<resource v='1' name='pozhen' prefix="lan-root" value="pozhen{0}" />
+			<resource v='1' name='huoyue' prefix="lan-root" value="huoyue{0}" />
+			<resource v='1' name='rankUI' prefix="lan-root" value="paihang{0}" />
+			<resource v='1' name='zhuxianUI' prefix="lan-root" value="zhuxian{0}" />
+			<resource v='1' name='fubenUI' prefix="lan-root" value="fuben{0}" />
+			<resource v='1' name='vipUI' prefix="lan-root" value="vipUI{0}" />
+			<resource v='1' name='mailUI' prefix="lan-root" value="mailUI{0}" />
+			<resource v='1' name='dujie' prefix="lan-root" value="dujie{0}" />
+			<resource v='1' name='bossUI' prefix="lan-root" value="bossUI{0}" />
+			<resource v='1' name='xianfuUI' prefix="lan-root" value="xianfuUI{0}" />
+			<resource v='1' name='chongzhiUI' prefix="lan-root" value="chongzhiUI{0}" />
+			<resource v='1' name='qitianUI' prefix="lan-root" value="dayslandUI{0}" />
+			<resource v='1' name='lingjiang' prefix="lan-root" value="lingjiang{0}" />
+			<resource v='1' name='kaifuUI' prefix="lan-root" value="kaifuUI{0}" />
+			<resource v='1' name='cuilianUI' prefix="lan-root" value="cuilianUI{0}" />
+			<resource v='1' name='jingJiWUI' prefix="lan-root" value="sportwzUI{0}" />
+			<resource v='1' name='levelGifUI' prefix="lan-root" value="levelGifs{0}" />
+			<resource v='1' name='ZFZUI' prefix="lan-root" value="zfzUI{0}" />
+			<resource v='1' name='baixian' prefix="lan-root" value="baixian{0}" />
+			<resource v='1' name='slotSuccess' prefix="lan-root" value="slotSucess{0}" />
+			<resource v='1' name='zhuanpan' prefix="lan-root" value="zhuanpan{0}" />
+			<resource v='1' name='mubiaoUI' prefix="lan-root" value="mubiaoUI{0}" />
+			<resource v='1' name='baozang' prefix="lan-root" value="baozang{0}" />
+			<resource v='1' name='guozhan' prefix="lan-root" value="guozhan{0}" />
+			<resource v='1' name='biguanUI' prefix="lan-root" value="biguanUI{0}" />
+			<resource v='1' name='VIPzhuanpanUI' prefix="lan-root" value="VIPzhuanpanUI{0}" />
+			<resource v='1' name='shoufeiUI' prefix="lan-root" value="shoufeiUI{0}" />
+			
+			<resource v='1' name='xianjingUI' prefix="lan-root" value="xianjing{0}" />
+			<resource v='1' name='lingqiUI' prefix="lan-root" value="lingqiUI{0}" />
+			<resource v='1' name='bianqiangUI' prefix="lan-root" value="bianqiangUI{0}" />
+			<resource v='1' name='mojieUI' prefix="lan-root" value="mojieUI{0}" />
+			<resource v='1' name='baicaoyuan' prefix="lan-root" value="baicaoyuan{0}" />
+			<resource v='1' name='czleijiUI' prefix="lan-root" value="czleijiUI{0}" />
+			<resource v='1' name='chengjiuUI' prefix="lan-root" value="chengjiuUI{0}" />
+			
+			<resource name="A" prefix="res-avater" value="u/" />
+			<resource name="B" prefix="res-avater" value="u/" />
+			<resource name="M" prefix="res-avater" value="n" />
+			<resource name="I" prefix="res-avater" value="i/" />
+			<resource name="F" prefix="res-avater" value="f/" />
+			<resource name="H" prefix="res-avater" value="h/" />
+			<resource name="G" prefix="res-root" value="n/" />
+			<resource name="D" prefix="res-root" value="d/" />
+			<resource name="CJ" prefix="res-root" value="cj/" />
+			<resource name="S" prefix="res-root" value="s/" />
+			<resource name="map" prefix="res-root" value="m/" />
+			<resource name="other" prefix="res-root" value="o/" />
+			
+			<resource name="qidai" prefix="res-root" value="o/qidai/" />
+			
+			<resource name="ef" prefix="res-c" value="ef/" />
+			<resource name='zi' prefix='res-root' value='z/' />
+			<resource name='zq' prefix='res-root' value='zq/' />
+			<resource name='emotion' prefix='res-root' value='em/{0}' />
+			<resource name='daofaswf' prefix="res-d" value="o/daofa/xtdfi1_{0}.jpg" />
+			<resource name='xianfa' prefix="res-root" value="o/xianfa/" />
+			<resource name='boss' prefix="res-root" value="o/boss/" />
+			<resource name="UX" prefix="res-root" value="u/" />
+			<resource name="sounds" prefix="res-root" value="s/" />
+			<resource name="chongzhibg" prefix="res-global" value="chongzhi/" />
+			<resource name="xianjingRes" prefix='res-root' value='o/xianjing/' />
+			<resource name="movie" prefix="cfg-root" value="movie/{0}.dat" />
+			<resource name="fight" prefix="res-root" value="d/fight/" />
+		</resources>
+		<services>
+			<service v="1" name="goods" prefix="cfg-pre" value="goods.dat"
+				b="1" />
+			<service v="1" name="cd" prefix="cfg-pre" value="cooldown.dat" />
+			<service v="1" name="skill" prefix="cfg-pre" value="skill.dat" />
+			<service v="1" name="fabao" prefix="cfg-pre" value="fabao.dat" />
+			<service v="1" name="buff" prefix="cfg-pre" value="buff.dat" />
+			<service v="1" name='config' prefix='cfg-pre' value='config.dat' />
+			<service v='1' name='task_path' prefix="res-root" value='task/{0}.task' />
+			<service v="1" name='npc' prefix='cfg-pre' value='npc.dat' />
+			<service v="1" name='zq' prefix='cfg-pre' value='zuoqi.dat' />
+			<service v="1" name='gj' prefix='cfg-pre' value='guaji.dat' />
+			<service v="1" name='wordFilter' prefix='cfg-pre' value='bs.txt' />
+			<service name="helpDoc" prefix='cfg-root' value="help.xml" />
+			<service v="1" name="langrage" prefix="cfg-pre" value="chn.dat" />
+			<!-- emotion -->
+			<service v="1" name='emotion' prefix='cfg-root' value='emotion.dat' />
+			<service v='1' name="maps" prefix='cfg-root' value='maps.dat' />
+			<service v='1' name="levelRex" prefix='cfg-root' value='gnfb.dat' />
+			<service v='1' name="fuben" prefix='cfg-root' value='fuben.dat' />
+			<service v='1' name="qh" prefix='cfg-root' value='qh.dat' />
+			<service v='1' name="baoshi" prefix='cfg-root' value='baoshi.dat' />
+			<service v='1' name="taskDesc" prefix='cfg-root' value='task/{0}.task' />
+			
+			
+			<service v="1" name="shenshu" prefix="cfg-pre" value="shenshu.dat" />
+			<service v="1" name="fenBaoYa" prefix="cfg-pre" value="fenBaoYa.dat" />
+			<service v="1" name="fengCeHuoDong" prefix="cfg-pre" value="huodong.dat" />
+			<service v="1" name="zhanlixishu" prefix="cfg-pre" value="zhanlixishu.dat" />
+			<service v="1" name="QiangHuaXiaoGuo" prefix="cfg-pre" value="qianghuaxiaoguo.dat" />
+			<service v="1" name="FuHuoYinDao" prefix="cfg-pre" value="fuhuoyindao.dat" />
+			<service v='1' name="poZhen" prefix='cfg-root' value='poZhen.dat' />
+			<service v='1' name="zhuXian" prefix='cfg-root' value='zhuXian.dat' />
+			<service v='1' name="yuanshen" prefix='cfg-root' value='yuanshen.dat' />
+			<service v='1' name="BossTiaoZhan" prefix='cfg-root' value='bosstiaozhan.dat' />
+			<service v='1' name="xianfu" prefix='cfg-root' value='xianfu.dat' />
+			<service v='1' name="jingjiCoin" prefix='cfg-root' value='jingjiCoin.dat' />
+			<service v='1' name="baixian" prefix='cfg-root' value='baiXian.dat' />
+			<service v='1' name="lingjiang" prefix='cfg-root' value='lingjiang.dat' />
+			<service v='1' name="mbyd" prefix='cfg-root' value='mbyd.dat' />
+			<service v='1' name="qitian" prefix='cfg-root' value='qitian.dat' />
+			<service v='1' name="clan" prefix='cfg-root' value='clan.dat' />
+			<service v='1' name="daofa" prefix='cfg-root' value='daofa.dat' />
+			<service v='1' name="tasktalk" prefix='cfg-root' value='tasktalk.dat' />
+			<service v='1' name="xianjing" prefix='cfg-root' value='xianjing.dat' />
+		</services>
+
+	</config>
+	<requests />
+
+</platform>

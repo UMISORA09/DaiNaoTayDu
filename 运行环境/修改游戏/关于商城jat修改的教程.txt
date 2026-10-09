@@ -1,0 +1,7 @@
+商城文件WuPinChuShouBiao-1394068406848.jat
+
+{"append":0,"banggong":"","bangpailevel":"","bindgole":"","coin":"","describle":"","duration":"","<font color="#ff0000"><b>gold":1317</b></font>,"goodsdescribe":"\"<font color='#ff5400'>【婚姻对戒】</font>\n<font color='#ffc655c'><b><font color="#ff0000">國老</font></b>为了证实最真挚的爱情，滴入世间最有情人之牛郎织女之血铸造而成，以最为喜庆的红色守护双方的爱情，红灵守情</font>\n<font color='#87ceeb'>（温馨提示：戒指为对戒。如求婚成功，对方也将获得一枚样式相同的戒指。）</font>\"","hot":"","losttime":"","maxcount":"","modelid":2000,"moneytype":2,"name":"鹊梦锦戒國","obtainlocked":0,"order":1,"page":1,<font color="#ff0000"><b>"pagename":"常用道具</b></font>","rack":"","sellid":"jiezhi3","sexneed":0,"shopname":"元宝商城","shoptype":"","showbanggong":"","showbindgold":"","showcoin":"","<b><font color="#ff0000">showgold":1318</font></b>,"strengthen":0},
+......
+
+参照物品id表，随便修改，gold=实际价格，showgold=标签价格，pagename=页表名字（常用道具，礼金商城，gm商城等）sellid=物品id，查看物品id表，这个戒指貌似不再服务端故购买不成功=。
+

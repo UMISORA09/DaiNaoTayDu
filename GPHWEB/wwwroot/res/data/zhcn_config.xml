@@ -1,0 +1,65 @@
+<platform>
+	<config>
+		<prefixes>
+                        <prefix name="lan-root" value="assets/zhcn/" />
+                        <prefix name="res-global" value="global/" />
+                        <prefix name="res-root" value="tw/r/" />
+                        <prefix name="res-avater" value="tw/r/" />
+                        <prefix name="cfg-pre" value="config/zhcn/" />
+                        <prefix name="cfg-root" value="config/zhcn/" />
+                        <prefix name="res-c" value="tw/r/" />
+                        <prefix name="res-d" value="tw/r/" />
+
+		</prefixes>
+		<webs>
+			<web name="so_define" prefix="cfg-pre" value="so.dat" />
+			<web name="get_flashplayer" value="http://get.adobe.com/cn/flashplayer/" />
+		</webs>
+		<resources>
+			<resource name="lib" prefix="lan-root" v="1" value="lib{0}" />
+			<resource name="baseFace" prefix="lan-root" v="1" value="baseFace{0}" />
+			<resource name="gameui" prefix="lan-root" v="1" value="gameui{0}" />
+			
+			<resource name="roleui" prefix="lan-root" v="1" value="roleUI{0}" />
+			
+			<resource name="bagui" prefix="lan-root" v="1" value="bagUI{0}" />
+			<resource name="warehouseui" prefix="lan-root" v="1" value="cangkuUI{0}" />
+			<resource name="tasklistui" prefix="lan-root" v="1" value="task{0}" />
+			<resource name="teamui" prefix="lan-root" v="1" value="teamUI{0}" />
+			<resource name="boothui" prefix="lan-root" v="1" value="boothUI{0}" />
+			<resource name="lixian" prefix="lan-root" v="1" value="lixian{0}" />
+			<resource name="shouchongUI" prefix="lan-root" v="1" value="shouchongUI{0}" />
+			<resource name="vipUI" prefix="lan-root" v="1" value="vipUI{0}" />
+			<resource name="pozhenUI" prefix="lan-root" v="1" value="pozhenUI{0}" />
+			
+			<resource name="map" prefix="res-d" value="m/" />
+			<resource name="M" prefix="res-c" value="n/" />
+			<resource name="S" prefix="res-c" value="s/" />
+			<resource name="I" prefix="res-c" value="i/" />
+			<resource name="ef" prefix="res-d" value="ef/" />
+			
+			<resource name="z" prefix="res-root" value="z/" />
+			<resource name="o" prefix="res-root" value="o/" />
+			<resource name="f" prefix="res-root" value="f/" />
+			<resource name="cj" prefix="res-root" value="cj/" />
+			<resource name="emotion" prefix="res-root" value="em/{0}" />
+			<resource name="chongzhi" prefix="res-global" value="" />
+			
+		</resources>
+		<services>
+			<service name="goods" prefix="cfg-root" v="2" value="goods.dat" />
+			<service name="chn" prefix="cfg-root" v="2" value="chn.dat" />
+			<service name="config" prefix="cfg-root" v="2" value="config.dat" />
+			<service name="clan" prefix="cfg-root" v="2" value="clan.dat" />
+			<service name="maps" prefix="cfg-root" v="2" value="maps.dat" />
+			<service name="emotion" prefix="cfg-root" v="2" value="emotion.dat" />
+			
+			<service name="name" prefix="cfg-root" v="2" value="name.dat" />
+			<service name="bs" prefix="cfg-root" v="2" value="bs.txt" />
+			
+			<service name="microClient" prefix="res-global" value="gamelogin0819.exe" />
+		</services>
+	</config>
+	<requests />
+
+</platform>

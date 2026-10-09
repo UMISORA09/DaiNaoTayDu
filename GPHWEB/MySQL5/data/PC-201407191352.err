@@ -1,0 +1,872 @@
+140801 19:44:06 [Note] Plugin 'FEDERATED' is disabled.
+140801 19:44:06  InnoDB: Started; log sequence number 0 44243
+140801 19:44:07 [Note] Event Scheduler: Loaded 0 events
+140801 19:44:07 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140801 19:49:26 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140801 19:49:26 [Note] Event Scheduler: Purging the queue. 0 events
+140801 19:49:28 [Warning] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 5  user: 'root'
+
+140801 19:49:28  InnoDB: Starting shutdown...
+140801 19:49:30  InnoDB: Shutdown completed; log sequence number 0 44243
+140801 19:49:30 [Warning] Forcing shutdown of 1 plugins
+140801 19:49:30 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140801 19:49:42 [Note] Plugin 'FEDERATED' is disabled.
+140801 19:49:43  InnoDB: Started; log sequence number 0 44243
+140801 19:49:43 [Note] Event Scheduler: Loaded 0 events
+140801 19:49:43 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140801 19:52:47 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140801 19:52:47 [Note] Event Scheduler: Purging the queue. 0 events
+140801 19:52:47  InnoDB: Starting shutdown...
+140801 19:52:48  InnoDB: Shutdown completed; log sequence number 0 44243
+140801 19:52:48 [Warning] Forcing shutdown of 1 plugins
+140801 19:52:48 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140801 19:52:57 [Note] Plugin 'FEDERATED' is disabled.
+140801 19:52:57  InnoDB: Started; log sequence number 0 44243
+140801 19:52:57 [Note] Event Scheduler: Loaded 0 events
+140801 19:52:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140801 19:54:13 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140801 19:54:13 [Note] Event Scheduler: Purging the queue. 0 events
+140801 19:54:13  InnoDB: Starting shutdown...
+140801 19:54:13  InnoDB: Shutdown completed; log sequence number 0 44243
+140801 19:54:13 [Warning] Forcing shutdown of 1 plugins
+140801 19:54:14 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140801 19:54:23 [Note] Plugin 'FEDERATED' is disabled.
+140801 19:54:24  InnoDB: Started; log sequence number 0 44243
+140801 19:54:24 [Note] Event Scheduler: Loaded 0 events
+140801 19:54:24 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140801 20:02:20 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140801 20:02:20 [Note] Event Scheduler: Purging the queue. 0 events
+140801 20:02:20  InnoDB: Starting shutdown...
+140801 20:02:21  InnoDB: Shutdown completed; log sequence number 0 44243
+140801 20:02:21 [Warning] Forcing shutdown of 1 plugins
+140801 20:02:21 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140801 20:02:47 [Note] Plugin 'FEDERATED' is disabled.
+140801 20:02:47  InnoDB: Started; log sequence number 0 44243
+140801 20:02:47 [Note] Event Scheduler: Loaded 0 events
+140801 20:02:47 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140801 20:56:51 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140801 20:56:51 [Note] Event Scheduler: Purging the queue. 0 events
+140801 20:56:51  InnoDB: Starting shutdown...
+140801 20:56:53  InnoDB: Shutdown completed; log sequence number 0 44243
+140801 20:56:53 [Warning] Forcing shutdown of 1 plugins
+140801 20:56:53 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140801 20:57:06 [Note] Plugin 'FEDERATED' is disabled.
+140801 20:57:07  InnoDB: Started; log sequence number 0 44243
+140801 20:57:07 [Note] Event Scheduler: Loaded 0 events
+140801 20:57:07 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140801 21:00:48 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140801 21:00:48 [Note] Event Scheduler: Purging the queue. 0 events
+140801 21:00:48  InnoDB: Starting shutdown...
+140801 21:00:49  InnoDB: Shutdown completed; log sequence number 0 44243
+140801 21:00:49 [Warning] Forcing shutdown of 1 plugins
+140801 21:00:49 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 13:38:16 [Note] Plugin 'FEDERATED' is disabled.
+140802 13:38:16  InnoDB: Started; log sequence number 0 44243
+140802 13:38:17 [Note] Event Scheduler: Loaded 0 events
+140802 13:38:17 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140802 14:10:28 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140802 14:10:28 [Note] Event Scheduler: Purging the queue. 0 events
+140802 14:10:28  InnoDB: Starting shutdown...
+140802 14:10:29  InnoDB: Shutdown completed; log sequence number 0 44243
+140802 14:10:29 [Warning] Forcing shutdown of 1 plugins
+140802 14:10:29 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 16:17:42 [Note] Plugin 'FEDERATED' is disabled.
+140802 16:17:42  InnoDB: Started; log sequence number 0 44243
+140802 16:17:42 [Note] Event Scheduler: Loaded 0 events
+140802 16:17:42 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140802 16:19:19 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140802 16:19:19 [Note] Event Scheduler: Purging the queue. 0 events
+140802 16:19:19  InnoDB: Starting shutdown...
+140802 16:19:20  InnoDB: Shutdown completed; log sequence number 0 44243
+140802 16:19:20 [Warning] Forcing shutdown of 1 plugins
+140802 16:19:20 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 16:39:12 [Note] Plugin 'FEDERATED' is disabled.
+140802 16:39:12  InnoDB: Started; log sequence number 0 44243
+140802 16:39:12 [Note] Event Scheduler: Loaded 0 events
+140802 16:39:12 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140802 17:46:47 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140802 17:46:47 [Note] Event Scheduler: Purging the queue. 0 events
+140802 17:46:47  InnoDB: Starting shutdown...
+140802 17:46:48  InnoDB: Shutdown completed; log sequence number 0 44243
+140802 17:46:48 [Warning] Forcing shutdown of 1 plugins
+140802 17:46:48 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 22:38:06 [Note] Plugin 'FEDERATED' is disabled.
+140802 22:38:06  InnoDB: Started; log sequence number 0 44243
+140802 22:38:06 [Note] Event Scheduler: Loaded 0 events
+140802 22:38:06 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140802 22:47:41 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140802 22:47:41 [Note] Event Scheduler: Purging the queue. 0 events
+140802 22:47:41  InnoDB: Starting shutdown...
+140802 22:47:42  InnoDB: Shutdown completed; log sequence number 0 44243
+140802 22:47:42 [Warning] Forcing shutdown of 1 plugins
+140802 22:47:42 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 22:47:57 [Note] Plugin 'FEDERATED' is disabled.
+140802 22:47:58  InnoDB: Started; log sequence number 0 44243
+140802 22:47:58 [Note] Event Scheduler: Loaded 0 events
+140802 22:47:58 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140802 22:53:54 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140802 22:53:54 [Note] Event Scheduler: Purging the queue. 0 events
+140802 22:53:54  InnoDB: Starting shutdown...
+140802 22:53:55  InnoDB: Shutdown completed; log sequence number 0 44243
+140802 22:53:55 [Warning] Forcing shutdown of 1 plugins
+140802 22:53:55 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 22:55:36 [Note] Plugin 'FEDERATED' is disabled.
+140802 22:55:36  InnoDB: Started; log sequence number 0 44243
+140802 22:55:36 [Note] Event Scheduler: Loaded 0 events
+140802 22:55:36 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140802 22:57:22 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140802 22:57:22 [Note] Event Scheduler: Purging the queue. 0 events
+140802 22:57:22  InnoDB: Starting shutdown...
+140802 22:57:23  InnoDB: Shutdown completed; log sequence number 0 44243
+140802 22:57:23 [Warning] Forcing shutdown of 1 plugins
+140802 22:57:23 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 22:59:06 [Note] Plugin 'FEDERATED' is disabled.
+140802 22:59:07  InnoDB: Started; log sequence number 0 44243
+140802 22:59:07 [Note] Event Scheduler: Loaded 0 events
+140802 22:59:07 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140802 23:00:56 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140802 23:00:56 [Note] Event Scheduler: Purging the queue. 0 events
+140802 23:00:56  InnoDB: Starting shutdown...
+140802 23:00:57  InnoDB: Shutdown completed; log sequence number 0 44243
+140802 23:00:57 [Warning] Forcing shutdown of 1 plugins
+140802 23:00:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140802 23:18:11 [Note] Plugin 'FEDERATED' is disabled.
+140802 23:18:11  InnoDB: Started; log sequence number 0 44243
+140802 23:18:11 [Note] Event Scheduler: Loaded 0 events
+140802 23:18:11 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803  0:37:17 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803  0:37:17 [Note] Event Scheduler: Purging the queue. 0 events
+140803  0:37:17  InnoDB: Starting shutdown...
+140803  0:37:18  InnoDB: Shutdown completed; log sequence number 0 44243
+140803  0:37:18 [Warning] Forcing shutdown of 1 plugins
+140803  0:37:18 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803  0:37:30 [Note] Plugin 'FEDERATED' is disabled.
+140803  0:37:30  InnoDB: Started; log sequence number 0 44243
+140803  0:37:30 [Note] Event Scheduler: Loaded 0 events
+140803  0:37:30 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803  0:57:43 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803  0:57:43 [Note] Event Scheduler: Purging the queue. 0 events
+140803  0:57:43  InnoDB: Starting shutdown...
+140803  0:57:44  InnoDB: Shutdown completed; log sequence number 0 44243
+140803  0:57:44 [Warning] Forcing shutdown of 1 plugins
+140803  0:57:44 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 14:25:17 [Note] Plugin 'FEDERATED' is disabled.
+140803 14:25:17  InnoDB: Started; log sequence number 0 44243
+140803 14:25:17 [Note] Event Scheduler: Loaded 0 events
+140803 14:25:17 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 14:30:36 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 14:30:36 [Note] Event Scheduler: Purging the queue. 0 events
+140803 14:30:36  InnoDB: Starting shutdown...
+140803 14:30:36  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 14:30:36 [Warning] Forcing shutdown of 1 plugins
+140803 14:30:36 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 14:31:30 [Note] Plugin 'FEDERATED' is disabled.
+140803 14:31:30  InnoDB: Started; log sequence number 0 44243
+140803 14:31:30 [Note] Event Scheduler: Loaded 0 events
+140803 14:31:30 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 14:31:43 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 14:31:43 [Note] Event Scheduler: Purging the queue. 0 events
+140803 14:31:43  InnoDB: Starting shutdown...
+140803 14:31:45  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 14:31:45 [Warning] Forcing shutdown of 1 plugins
+140803 14:31:45 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 14:48:30 [Note] Plugin 'FEDERATED' is disabled.
+140803 14:48:30  InnoDB: Started; log sequence number 0 44243
+140803 14:48:30 [Note] Event Scheduler: Loaded 0 events
+140803 14:48:30 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 15:01:34 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 15:01:34 [Note] Event Scheduler: Purging the queue. 0 events
+140803 15:01:34  InnoDB: Starting shutdown...
+140803 15:01:35  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 15:01:35 [Warning] Forcing shutdown of 1 plugins
+140803 15:01:35 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 15:37:55 [Note] Plugin 'FEDERATED' is disabled.
+140803 15:37:56  InnoDB: Started; log sequence number 0 44243
+140803 15:37:56 [Note] Event Scheduler: Loaded 0 events
+140803 15:37:56 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 15:38:10 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 15:38:10 [Note] Event Scheduler: Purging the queue. 0 events
+140803 15:38:10  InnoDB: Starting shutdown...
+140803 15:38:10  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 15:38:10 [Warning] Forcing shutdown of 1 plugins
+140803 15:38:10 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 16:31:58 [Note] Plugin 'FEDERATED' is disabled.
+140803 16:31:59  InnoDB: Started; log sequence number 0 44243
+140803 16:31:59 [Note] Event Scheduler: Loaded 0 events
+140803 16:31:59 [Note] D:\server\GPHWEB\MySQL5\bin\mysqid.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 16:36:23 [Note] Plugin 'FEDERATED' is disabled.
+140803 16:36:23  InnoDB: Started; log sequence number 0 44243
+140803 16:36:23 [Note] Event Scheduler: Loaded 0 events
+140803 16:36:23 [Note] D:\server\GPHWEB\MySQL5\bin\mysqid.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 16:37:06 [Note] Plugin 'FEDERATED' is disabled.
+140803 16:37:06  InnoDB: Started; log sequence number 0 44243
+140803 16:37:06 [Note] Event Scheduler: Loaded 0 events
+140803 16:37:06 [Note] D:\server\GPHWEB\MySQL5\bin\mysqid.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 17:29:14 [Note] Plugin 'FEDERATED' is disabled.
+140803 17:29:14  InnoDB: Started; log sequence number 0 44243
+140803 17:29:14 [Note] Event Scheduler: Loaded 0 events
+140803 17:29:14 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 17:29:29 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 17:29:29 [Note] Event Scheduler: Purging the queue. 0 events
+140803 17:29:30  InnoDB: Starting shutdown...
+140803 17:29:31  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 17:29:31 [Warning] Forcing shutdown of 1 plugins
+140803 17:29:31 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 22:39:08 [Note] Plugin 'FEDERATED' is disabled.
+140803 22:39:09  InnoDB: Started; log sequence number 0 44243
+140803 22:39:09 [Note] Event Scheduler: Loaded 0 events
+140803 22:39:09 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 22:41:41 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 22:41:41 [Note] Event Scheduler: Purging the queue. 0 events
+140803 22:41:41  InnoDB: Starting shutdown...
+140803 22:41:42  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 22:41:42 [Warning] Forcing shutdown of 1 plugins
+140803 22:41:42 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 22:44:58 [Note] Plugin 'FEDERATED' is disabled.
+140803 22:44:58  InnoDB: Started; log sequence number 0 44243
+140803 22:44:58 [Note] Event Scheduler: Loaded 0 events
+140803 22:44:58 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 22:49:50 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 22:49:50 [Note] Event Scheduler: Purging the queue. 0 events
+140803 22:49:50  InnoDB: Starting shutdown...
+140803 22:49:51  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 22:49:51 [Warning] Forcing shutdown of 1 plugins
+140803 22:49:51 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140803 22:52:57 [Note] Plugin 'FEDERATED' is disabled.
+140803 22:52:57  InnoDB: Started; log sequence number 0 44243
+140803 22:52:57 [Note] Event Scheduler: Loaded 0 events
+140803 22:52:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140803 22:55:15 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140803 22:55:15 [Note] Event Scheduler: Purging the queue. 0 events
+140803 22:55:15  InnoDB: Starting shutdown...
+140803 22:55:16  InnoDB: Shutdown completed; log sequence number 0 44243
+140803 22:55:16 [Warning] Forcing shutdown of 1 plugins
+140803 22:55:16 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 16:15:41 [Note] Plugin 'FEDERATED' is disabled.
+140810 16:15:42  InnoDB: Started; log sequence number 0 44243
+140810 16:15:42 [Note] Event Scheduler: Loaded 0 events
+140810 16:15:42 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 16:20:48 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 16:20:48 [Note] Event Scheduler: Purging the queue. 0 events
+140810 16:20:48  InnoDB: Starting shutdown...
+140810 16:20:49  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 16:20:49 [Warning] Forcing shutdown of 1 plugins
+140810 16:20:49 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 16:21:50 [Note] Plugin 'FEDERATED' is disabled.
+140810 16:21:50  InnoDB: Started; log sequence number 0 44243
+140810 16:21:50 [Note] Event Scheduler: Loaded 0 events
+140810 16:21:50 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 16:24:59 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 16:24:59 [Note] Event Scheduler: Purging the queue. 0 events
+140810 16:24:59  InnoDB: Starting shutdown...
+140810 16:25:00  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 16:25:00 [Warning] Forcing shutdown of 1 plugins
+140810 16:25:00 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 16:38:16 [Note] Plugin 'FEDERATED' is disabled.
+140810 16:38:16  InnoDB: Started; log sequence number 0 44243
+140810 16:38:17 [Note] Event Scheduler: Loaded 0 events
+140810 16:38:17 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 16:40:11 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 16:40:11 [Note] Event Scheduler: Purging the queue. 0 events
+140810 16:40:11  InnoDB: Starting shutdown...
+140810 16:40:12  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 16:40:12 [Warning] Forcing shutdown of 1 plugins
+140810 16:40:12 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 16:55:01 [Note] Plugin 'FEDERATED' is disabled.
+140810 16:55:02  InnoDB: Started; log sequence number 0 44243
+140810 16:55:02 [Note] Event Scheduler: Loaded 0 events
+140810 16:55:02 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 16:59:17 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 16:59:17 [Note] Event Scheduler: Purging the queue. 0 events
+140810 16:59:17  InnoDB: Starting shutdown...
+140810 16:59:18  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 16:59:18 [Warning] Forcing shutdown of 1 plugins
+140810 16:59:18 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 17:10:29 [Note] Plugin 'FEDERATED' is disabled.
+140810 17:10:29  InnoDB: Started; log sequence number 0 44243
+140810 17:10:29 [Note] Event Scheduler: Loaded 0 events
+140810 17:10:29 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 17:13:08 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 17:13:08 [Note] Event Scheduler: Purging the queue. 0 events
+140810 17:13:08  InnoDB: Starting shutdown...
+140810 17:13:09  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 17:13:09 [Warning] Forcing shutdown of 1 plugins
+140810 17:13:09 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 17:13:20 [Note] Plugin 'FEDERATED' is disabled.
+140810 17:13:20  InnoDB: Started; log sequence number 0 44243
+140810 17:13:20 [Note] Event Scheduler: Loaded 0 events
+140810 17:13:20 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 17:16:08 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 17:16:08 [Note] Event Scheduler: Purging the queue. 0 events
+140810 17:16:08  InnoDB: Starting shutdown...
+140810 17:16:09  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 17:16:09 [Warning] Forcing shutdown of 1 plugins
+140810 17:16:09 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 17:22:13 [Note] Plugin 'FEDERATED' is disabled.
+140810 17:22:13  InnoDB: Started; log sequence number 0 44243
+140810 17:22:13 [Note] Event Scheduler: Loaded 0 events
+140810 17:22:13 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 17:26:46 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 17:26:46 [Note] Event Scheduler: Purging the queue. 0 events
+140810 17:26:46  InnoDB: Starting shutdown...
+140810 17:26:47  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 17:26:47 [Warning] Forcing shutdown of 1 plugins
+140810 17:26:47 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 19:26:09 [Note] Plugin 'FEDERATED' is disabled.
+140810 19:26:10  InnoDB: Started; log sequence number 0 44243
+140810 19:26:10 [Note] Event Scheduler: Loaded 0 events
+140810 19:26:10 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 19:38:22 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 19:38:22 [Note] Event Scheduler: Purging the queue. 0 events
+140810 19:38:22  InnoDB: Starting shutdown...
+140810 19:38:23  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 19:38:23 [Warning] Forcing shutdown of 1 plugins
+140810 19:38:23 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140810 21:38:41 [Note] Plugin 'FEDERATED' is disabled.
+140810 21:38:41  InnoDB: Started; log sequence number 0 44243
+140810 21:38:41 [Note] Event Scheduler: Loaded 0 events
+140810 21:38:41 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140810 22:24:51 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140810 22:24:51 [Note] Event Scheduler: Purging the queue. 0 events
+140810 22:24:51  InnoDB: Starting shutdown...
+140810 22:24:52  InnoDB: Shutdown completed; log sequence number 0 44243
+140810 22:24:52 [Warning] Forcing shutdown of 1 plugins
+140810 22:24:52 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140811 11:15:02 [Note] Plugin 'FEDERATED' is disabled.
+140811 11:15:02  InnoDB: Started; log sequence number 0 44243
+140811 11:15:03 [Note] Event Scheduler: Loaded 0 events
+140811 11:15:03 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140811 11:54:01 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140811 11:54:01 [Note] Event Scheduler: Purging the queue. 0 events
+140811 11:54:01  InnoDB: Starting shutdown...
+140811 11:54:01  InnoDB: Shutdown completed; log sequence number 0 44243
+140811 11:54:01 [Warning] Forcing shutdown of 1 plugins
+140811 11:54:01 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140811 12:16:47 [Note] Plugin 'FEDERATED' is disabled.
+140811 12:16:47  InnoDB: Started; log sequence number 0 44243
+140811 12:16:47 [Note] Event Scheduler: Loaded 0 events
+140811 12:16:47 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140811 12:23:54 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140811 12:23:54 [Note] Event Scheduler: Purging the queue. 0 events
+140811 12:23:56 [Warning] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 23  user: 'root'
+
+140811 12:23:56 [Warning] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 22  user: 'root'
+
+140811 12:23:56 [Warning] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 21  user: 'root'
+
+140811 12:23:56  InnoDB: Starting shutdown...
+140811 12:23:57  InnoDB: Shutdown completed; log sequence number 0 44243
+140811 12:23:57 [Warning] Forcing shutdown of 1 plugins
+140811 12:23:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140811 12:30:36 [Note] Plugin 'FEDERATED' is disabled.
+140811 12:30:36  InnoDB: Started; log sequence number 0 44243
+140811 12:30:36 [Note] Event Scheduler: Loaded 0 events
+140811 12:30:36 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140811 13:58:24 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140811 13:58:24 [Note] Event Scheduler: Purging the queue. 0 events
+140811 13:58:24  InnoDB: Starting shutdown...
+140811 13:58:26  InnoDB: Shutdown completed; log sequence number 0 44253
+140811 13:58:26 [Warning] Forcing shutdown of 1 plugins
+140811 13:58:26 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140811 14:41:01 [Note] Plugin 'FEDERATED' is disabled.
+140811 14:41:02  InnoDB: Started; log sequence number 0 44253
+140811 14:41:02 [Note] Event Scheduler: Loaded 0 events
+140811 14:41:02 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140811 15:35:22 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140811 15:35:22 [Note] Event Scheduler: Purging the queue. 0 events
+140811 15:35:22  InnoDB: Starting shutdown...
+140811 15:35:23  InnoDB: Shutdown completed; log sequence number 0 44253
+140811 15:35:23 [Warning] Forcing shutdown of 1 plugins
+140811 15:35:23 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140811 15:35:34 [Note] Plugin 'FEDERATED' is disabled.
+140811 15:35:34  InnoDB: Started; log sequence number 0 44253
+140811 15:35:34 [Note] Event Scheduler: Loaded 0 events
+140811 15:35:34 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140811 20:11:50 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140811 20:11:50 [Note] Event Scheduler: Purging the queue. 0 events
+140811 20:11:50  InnoDB: Starting shutdown...
+140811 20:11:51  InnoDB: Shutdown completed; log sequence number 0 44253
+140811 20:11:51 [Warning] Forcing shutdown of 1 plugins
+140811 20:11:51 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140812 10:50:31 [Note] Plugin 'FEDERATED' is disabled.
+140812 10:50:32  InnoDB: Started; log sequence number 0 44253
+140812 10:50:32 [Note] Event Scheduler: Loaded 0 events
+140812 10:50:32 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140812 19:51:15 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140812 19:51:15 [Note] Event Scheduler: Purging the queue. 0 events
+140812 19:51:15  InnoDB: Starting shutdown...
+140812 19:51:16  InnoDB: Shutdown completed; log sequence number 0 44253
+140812 19:51:16 [Warning] Forcing shutdown of 1 plugins
+140812 19:51:16 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140812 21:09:52 [Note] Plugin 'FEDERATED' is disabled.
+140812 21:09:52  InnoDB: Started; log sequence number 0 44253
+140812 21:09:53 [Note] Event Scheduler: Loaded 0 events
+140812 21:09:53 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140812 21:19:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140812 21:19:57 [Note] Event Scheduler: Purging the queue. 0 events
+140812 21:19:57  InnoDB: Starting shutdown...
+140812 21:19:58  InnoDB: Shutdown completed; log sequence number 0 44253
+140812 21:19:58 [Warning] Forcing shutdown of 1 plugins
+140812 21:19:58 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140812 21:28:35 [Note] Plugin 'FEDERATED' is disabled.
+140812 21:28:36  InnoDB: Started; log sequence number 0 44253
+140812 21:28:36 [Note] Event Scheduler: Loaded 0 events
+140812 21:28:36 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140813  2:22:55 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140813  2:22:55 [Note] Event Scheduler: Purging the queue. 0 events
+140813  2:22:55  InnoDB: Starting shutdown...
+140813  2:22:56  InnoDB: Shutdown completed; log sequence number 0 44253
+140813  2:22:56 [Warning] Forcing shutdown of 1 plugins
+140813  2:22:56 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140813 11:52:06 [Note] Plugin 'FEDERATED' is disabled.
+140813 11:52:07  InnoDB: Started; log sequence number 0 44253
+140813 11:52:07 [Note] Event Scheduler: Loaded 0 events
+140813 11:52:07 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140813 12:17:09 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140813 12:17:09 [Note] Event Scheduler: Purging the queue. 0 events
+140813 12:17:09  InnoDB: Starting shutdown...
+140813 12:17:10  InnoDB: Shutdown completed; log sequence number 0 44253
+140813 12:17:10 [Warning] Forcing shutdown of 1 plugins
+140813 12:17:10 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140813 12:18:32 [Note] Plugin 'FEDERATED' is disabled.
+140813 12:18:32  InnoDB: Started; log sequence number 0 44253
+140813 12:18:32 [Note] Event Scheduler: Loaded 0 events
+140813 12:18:32 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140813 18:41:10 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140813 18:41:10 [Note] Event Scheduler: Purging the queue. 0 events
+140813 18:41:12 [Warning] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 99  user: 'root'
+
+140813 18:41:12 [Warning] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 68  user: 'root'
+
+140813 18:41:12  InnoDB: Starting shutdown...
+140813 18:41:13  InnoDB: Shutdown completed; log sequence number 0 44253
+140813 18:41:13 [Warning] Forcing shutdown of 1 plugins
+140813 18:41:13 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140813 18:41:23 [Note] Plugin 'FEDERATED' is disabled.
+140813 18:41:23  InnoDB: Started; log sequence number 0 44253
+140813 18:41:23 [Note] Event Scheduler: Loaded 0 events
+140813 18:41:23 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140813 21:00:32 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140813 21:00:32 [Note] Event Scheduler: Purging the queue. 0 events
+140813 21:00:32  InnoDB: Starting shutdown...
+140813 21:00:33  InnoDB: Shutdown completed; log sequence number 0 44253
+140813 21:00:33 [Warning] Forcing shutdown of 1 plugins
+140813 21:00:33 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140813 23:22:24 [Note] Plugin 'FEDERATED' is disabled.
+140813 23:22:24  InnoDB: Started; log sequence number 0 44253
+140813 23:22:24 [Note] Event Scheduler: Loaded 0 events
+140813 23:22:24 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814  1:47:53 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814  1:47:53 [Note] Event Scheduler: Purging the queue. 0 events
+140814  1:47:53  InnoDB: Starting shutdown...
+140814  1:47:54  InnoDB: Shutdown completed; log sequence number 0 44253
+140814  1:47:54 [Warning] Forcing shutdown of 1 plugins
+140814  1:47:54 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814  1:51:07 [Note] Plugin 'FEDERATED' is disabled.
+140814  1:51:08  InnoDB: Started; log sequence number 0 44253
+140814  1:51:08 [Note] Event Scheduler: Loaded 0 events
+140814  1:51:08 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814  2:45:36 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814  2:45:36 [Note] Event Scheduler: Purging the queue. 0 events
+140814  2:45:36  InnoDB: Starting shutdown...
+140814  2:45:37  InnoDB: Shutdown completed; log sequence number 0 44253
+140814  2:45:37 [Warning] Forcing shutdown of 1 plugins
+140814  2:45:37 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 10:24:55 [Note] Plugin 'FEDERATED' is disabled.
+140814 10:24:55  InnoDB: Started; log sequence number 0 44253
+140814 10:24:55 [Note] Event Scheduler: Loaded 0 events
+140814 10:24:55 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 11:34:43 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 11:34:43 [Note] Event Scheduler: Purging the queue. 0 events
+140814 11:34:43  InnoDB: Starting shutdown...
+140814 11:34:45  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 11:34:45 [Warning] Forcing shutdown of 1 plugins
+140814 11:34:45 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 11:46:21 [Note] Plugin 'FEDERATED' is disabled.
+140814 11:46:22  InnoDB: Started; log sequence number 0 44253
+140814 11:46:22 [Note] Event Scheduler: Loaded 0 events
+140814 11:46:22 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 12:05:45 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 12:05:45 [Note] Event Scheduler: Purging the queue. 0 events
+140814 12:05:45  InnoDB: Starting shutdown...
+140814 12:05:46  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 12:05:46 [Warning] Forcing shutdown of 1 plugins
+140814 12:05:46 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 20:29:26 [Note] Plugin 'FEDERATED' is disabled.
+140814 20:29:26  InnoDB: Started; log sequence number 0 44253
+140814 20:29:26 [Note] Event Scheduler: Loaded 0 events
+140814 20:29:26 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 20:38:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 20:38:57 [Note] Event Scheduler: Purging the queue. 0 events
+140814 20:38:57  InnoDB: Starting shutdown...
+140814 20:38:57  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 20:38:57 [Warning] Forcing shutdown of 1 plugins
+140814 20:38:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 20:50:04 [Note] Plugin 'FEDERATED' is disabled.
+140814 20:50:04  InnoDB: Started; log sequence number 0 44253
+140814 20:50:05 [Note] Event Scheduler: Loaded 0 events
+140814 20:50:05 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 20:52:57 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 20:52:57 [Note] Event Scheduler: Purging the queue. 0 events
+140814 20:52:57  InnoDB: Starting shutdown...
+140814 20:52:58  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 20:52:58 [Warning] Forcing shutdown of 1 plugins
+140814 20:52:58 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 22:50:09 [Note] Plugin 'FEDERATED' is disabled.
+140814 22:50:10  InnoDB: Started; log sequence number 0 44253
+140814 22:50:10 [Note] Event Scheduler: Loaded 0 events
+140814 22:50:10 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 22:51:46 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 22:51:46 [Note] Event Scheduler: Purging the queue. 0 events
+140814 22:51:46  InnoDB: Starting shutdown...
+140814 22:51:47  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 22:51:47 [Warning] Forcing shutdown of 1 plugins
+140814 22:51:47 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 23:04:39 [Note] Plugin 'FEDERATED' is disabled.
+140814 23:04:39  InnoDB: Started; log sequence number 0 44253
+140814 23:04:39 [Note] Event Scheduler: Loaded 0 events
+140814 23:04:39 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 23:09:08 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 23:09:08 [Note] Event Scheduler: Purging the queue. 0 events
+140814 23:09:08  InnoDB: Starting shutdown...
+140814 23:09:08  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 23:09:08 [Warning] Forcing shutdown of 1 plugins
+140814 23:09:08 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 23:36:21 [Note] Plugin 'FEDERATED' is disabled.
+140814 23:36:21  InnoDB: Started; log sequence number 0 44253
+140814 23:36:21 [Note] Event Scheduler: Loaded 0 events
+140814 23:36:21 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 23:38:05 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 23:38:05 [Note] Event Scheduler: Purging the queue. 0 events
+140814 23:38:05  InnoDB: Starting shutdown...
+140814 23:38:05  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 23:38:05 [Warning] Forcing shutdown of 1 plugins
+140814 23:38:05 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140814 23:43:26 [Note] Plugin 'FEDERATED' is disabled.
+140814 23:43:27  InnoDB: Started; log sequence number 0 44253
+140814 23:43:27 [Note] Event Scheduler: Loaded 0 events
+140814 23:43:27 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140814 23:56:01 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140814 23:56:01 [Note] Event Scheduler: Purging the queue. 0 events
+140814 23:56:01  InnoDB: Starting shutdown...
+140814 23:56:02  InnoDB: Shutdown completed; log sequence number 0 44253
+140814 23:56:02 [Warning] Forcing shutdown of 1 plugins
+140814 23:56:02 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815  0:03:03 [Note] Plugin 'FEDERATED' is disabled.
+140815  0:03:04  InnoDB: Started; log sequence number 0 44253
+140815  0:03:04 [Note] Event Scheduler: Loaded 0 events
+140815  0:03:04 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815  0:06:19 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815  0:06:19 [Note] Event Scheduler: Purging the queue. 0 events
+140815  0:06:19  InnoDB: Starting shutdown...
+140815  0:06:20  InnoDB: Shutdown completed; log sequence number 0 44253
+140815  0:06:20 [Warning] Forcing shutdown of 1 plugins
+140815  0:06:20 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815  0:12:03 [Note] Plugin 'FEDERATED' is disabled.
+140815  0:12:04  InnoDB: Started; log sequence number 0 44253
+140815  0:12:04 [Note] Event Scheduler: Loaded 0 events
+140815  0:12:04 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815  0:17:16 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815  0:17:16 [Note] Event Scheduler: Purging the queue. 0 events
+140815  0:17:16  InnoDB: Starting shutdown...
+140815  0:17:17  InnoDB: Shutdown completed; log sequence number 0 44253
+140815  0:17:17 [Warning] Forcing shutdown of 1 plugins
+140815  0:17:17 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815  0:20:02 [Note] Plugin 'FEDERATED' is disabled.
+140815  0:20:02  InnoDB: Started; log sequence number 0 44253
+140815  0:20:02 [Note] Event Scheduler: Loaded 0 events
+140815  0:20:02 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815  1:57:18 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815  1:57:18 [Note] Event Scheduler: Purging the queue. 0 events
+140815  1:57:18  InnoDB: Starting shutdown...
+140815  1:57:19  InnoDB: Shutdown completed; log sequence number 0 44253
+140815  1:57:19 [Warning] Forcing shutdown of 1 plugins
+140815  1:57:19 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815  1:59:29 [Note] Plugin 'FEDERATED' is disabled.
+140815  1:59:30  InnoDB: Started; log sequence number 0 44253
+140815  1:59:30 [Note] Event Scheduler: Loaded 0 events
+140815  1:59:30 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815  2:25:08 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815  2:25:08 [Note] Event Scheduler: Purging the queue. 0 events
+140815  2:25:08  InnoDB: Starting shutdown...
+140815  2:25:09  InnoDB: Shutdown completed; log sequence number 0 44253
+140815  2:25:09 [Warning] Forcing shutdown of 1 plugins
+140815  2:25:09 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 11:52:27 [Note] Plugin 'FEDERATED' is disabled.
+140815 11:52:27  InnoDB: Started; log sequence number 0 44253
+140815 11:52:27 [Note] Event Scheduler: Loaded 0 events
+140815 11:52:27 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 12:18:19 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 12:18:19 [Note] Event Scheduler: Purging the queue. 0 events
+140815 12:18:19  InnoDB: Starting shutdown...
+140815 12:18:19  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 12:18:19 [Warning] Forcing shutdown of 1 plugins
+140815 12:18:19 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 12:28:32 [Note] Plugin 'FEDERATED' is disabled.
+140815 12:28:32  InnoDB: Started; log sequence number 0 44253
+140815 12:28:32 [Note] Event Scheduler: Loaded 0 events
+140815 12:28:32 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 12:30:51 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 12:30:51 [Note] Event Scheduler: Purging the queue. 0 events
+140815 12:30:51  InnoDB: Starting shutdown...
+140815 12:30:52  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 12:30:52 [Warning] Forcing shutdown of 1 plugins
+140815 12:30:52 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 13:18:20 [Note] Plugin 'FEDERATED' is disabled.
+140815 13:18:21  InnoDB: Started; log sequence number 0 44253
+140815 13:18:21 [Note] Event Scheduler: Loaded 0 events
+140815 13:18:21 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 13:20:58 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 13:20:58 [Note] Event Scheduler: Purging the queue. 0 events
+140815 13:20:58  InnoDB: Starting shutdown...
+140815 13:20:59  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 13:20:59 [Warning] Forcing shutdown of 1 plugins
+140815 13:20:59 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 14:03:48 [Note] Plugin 'FEDERATED' is disabled.
+140815 14:03:48  InnoDB: Started; log sequence number 0 44253
+140815 14:03:48 [Note] Event Scheduler: Loaded 0 events
+140815 14:03:48 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 14:41:46 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 14:41:46 [Note] Event Scheduler: Purging the queue. 0 events
+140815 14:41:46  InnoDB: Starting shutdown...
+140815 14:41:47  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 14:41:47 [Warning] Forcing shutdown of 1 plugins
+140815 14:41:47 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 14:43:08 [Note] Plugin 'FEDERATED' is disabled.
+140815 14:43:09  InnoDB: Started; log sequence number 0 44253
+140815 14:43:09 [Note] Event Scheduler: Loaded 0 events
+140815 14:43:09 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 15:20:31 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 15:20:31 [Note] Event Scheduler: Purging the queue. 0 events
+140815 15:20:31  InnoDB: Starting shutdown...
+140815 15:20:31  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 15:20:31 [Warning] Forcing shutdown of 1 plugins
+140815 15:20:31 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 15:22:12 [Note] Plugin 'FEDERATED' is disabled.
+140815 15:22:12  InnoDB: Started; log sequence number 0 44253
+140815 15:22:13 [Note] Event Scheduler: Loaded 0 events
+140815 15:22:13 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 15:31:01 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 15:31:01 [Note] Event Scheduler: Purging the queue. 0 events
+140815 15:31:01  InnoDB: Starting shutdown...
+140815 15:31:02  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 15:31:02 [Warning] Forcing shutdown of 1 plugins
+140815 15:31:02 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 15:51:30 [Note] Plugin 'FEDERATED' is disabled.
+140815 15:51:31  InnoDB: Started; log sequence number 0 44253
+140815 15:51:31 [Note] Event Scheduler: Loaded 0 events
+140815 15:51:31 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 16:10:58 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 16:10:58 [Note] Event Scheduler: Purging the queue. 0 events
+140815 16:10:58  InnoDB: Starting shutdown...
+140815 16:11:00  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 16:11:00 [Warning] Forcing shutdown of 1 plugins
+140815 16:11:00 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140815 17:08:39 [Note] Plugin 'FEDERATED' is disabled.
+140815 17:08:40  InnoDB: Started; log sequence number 0 44253
+140815 17:08:40 [Note] Event Scheduler: Loaded 0 events
+140815 17:08:40 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140815 17:26:36 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140815 17:26:36 [Note] Event Scheduler: Purging the queue. 0 events
+140815 17:26:36  InnoDB: Starting shutdown...
+140815 17:26:37  InnoDB: Shutdown completed; log sequence number 0 44253
+140815 17:26:37 [Warning] Forcing shutdown of 1 plugins
+140815 17:26:37 [Note] D:\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+

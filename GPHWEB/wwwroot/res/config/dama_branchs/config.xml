@@ -1,0 +1,30 @@
+<config>
+	<lang>【大闹天宫】新马</lang>
+	<langTag>dama</langTag>
+	<!-- 是否直接做简繁体转换-->
+	<iscn>0</iscn>
+	<!-- 是否拆分导出（1导出xml,0导出txt）-->
+	<isxml>0</isxml>
+	<swfdll>//192.168.1.5/csvWeb/dntg/dll/TiangongDll.swf</swfdll>
+	<!-- java 配置文件路径 和 保存路径 （若配置和保存路径一致，导出时直接进行完整的覆盖）-->
+	<javapath>//192.168.1.5/tiangong.com/web/java/dama</javapath>
+	<javasavepath>//192.168.1.5/tiangong.com/web/java/dama</javasavepath>
+	
+	<!-- flash 配置文件路径 和 保存路径（若配置和保存路径一致，导出时直接进行完整的覆盖） -->
+	<flashpath>//192.168.1.5/tiangong.com/web/config/dama</flashpath>
+	<flashsavepath>//192.168.1.5/tiangong.com/web/config/dama</flashsavepath>
+	
+	<!-- 翻译字典位置（文件夹） -->
+	<dictpath>//192.168.1.5/csvWeb/dntg/trans/dama/dirc</dictpath>
+	<!-- xml保存位置 -->
+	<xmlpath>//192.168.1.5/csvWeb/dntg/trans/dama/</xmlpath>
+	<!-- 待翻译文件导出位置（文件夹） -->
+	<untranpath>//192.168.1.5/csvWeb/dntg/trans/dama/need</untranpath>
+	<!-- 需要被添加进待翻译列表的位置（文件夹）导出自fla文件 -->
+	<addpath>//192.168.1.5/csvWeb/dntg/trans/dama/add</addpath>
+	<!-- 旧的配置文件目录（文件夹） -->
+	<comppath>//192.168.1.5/csvWeb/dntg/trans/dama/old</comppath>
+	
+	<transefrompath>//192.168.1.5/csvWeb/dntg/trans/dama/lang/dama_language.lang</transefrompath>
+	
+</config>

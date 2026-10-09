@@ -1,0 +1,48 @@
+@ cmd 117 zhenyuan:32000:0:0 金舍利
+@ cmd 117 bscl:10000:1:0  宝石碎片
+@ cmd 117 guangyi001:100:0:0  光翼金羽
+@ cmd 117 10yb:1:0:0   开服庆典礼包
+@ cmd 117 jinglianshi:1:0:0   完美强化锤
+@ cmd 117 chengsejingyanshu:1:0:0   顶级仙格
+@ cmd 117 zhanli1:1:0:0   封测战力第一礼包
+@ cmd 117 cangbaoge1:1:0:0   荣誉点
+@ cmd 117 wuhunsuipian:1:0:0   巫魂碎片
+@ cmd 117 exppill_004:1:0:0   极品经验丹
+@ cmd 117 tongqian004:1:0:0   铜钱卡巨型
+@ cmd 117 fuhuo:1:0:0   复活
+@ cmd 117 zuoqishuxing2:1:0:0  龙魂
+@ cmd 117 qibing001:1:0:0   骑兵陨铁
+@ cmd 117 jinjieshi:1:0:0  进阶石
+@ cmd 117 qianghuashi:1:0:0  强化石
+@ cmd 117 xiaolaba:1:0:0   喇叭
+@ cmd 117 feixie:999:0:0   筋斗云
+@ cmd 117 wucailiuli:1:0:0 五彩琉璃
+@ cmd 117 jinjiedan007:1:0:0幸运坐骑进阶丹
+@ cmd 117 jinjiedan006:1:0:0  高级坐骑进阶丹
+@ cmd 117 jinjiedan001:1:0:0  坐骑进阶丹
+@ cmd 117 xuanyuan:1:0:0 春节皇帝礼包
+@ cmd 117 silver1000:1:0:0  1000礼金
+@ cmd 117 zhenqipill_003:999:0:0   大型灵气丹
+@ cmd 117 prestige003:999:0:0  声望丹大
+@ cmd 117 shengjidan:1:0:0  升仙丹 等级+1
+@ cmd 117 zuoqishuxing3:1:0:0  龙灵
+@ cmd 117 bsclbig:1:0:0  完美宝石精华   
+@ cmd 117 lingql:999:0:0   青龙令
+@ cmd 117 lingbh:999:0:0   白虎令
+@ cmd 117 lingzq:999:0:0   朱雀令
+@ cmd 117 lingxw:999:0:0   玄武令
+@ cmd 117 bscl:50000:0:0  宝石精华
+@ cmd 117 tz0901:1:1:0:0|0:4:1|14,1|14,1|14,1|14,1|14,1|14  圣王护符 左
+@ cmd 117 tz0902:1:1:0:0|0:4:1|14,1|14,1|14,1|14,1|14,1|14  圣王护符 右
+@ cmd 117 tz0903:1:1:0:0|0:4:3|14,3|14,3|14,3|14,3|14,3|14  圣王坠饰 左
+@ cmd 117 tz0904:1:1:0:0|0:4:4|14,4|14,4|14,4|14,4|14,4|14  圣王坠饰 右
+@ cmd 117 zj0616:1:1:0:0|0:4:9|5,9|5,9|5 麻痹腰带
+@ cmd 117 binghun:1:1:0   兵魂
+@ cmd 117 bingling:1:1:0  兵灵   yihun  yiling
+@ cmd 117 pk1:1:0:0  PK清洗
+@ cmd 117 zqzb1101:1:1:0:11|11:4:坐骑装备
+@ cmd 117 72fangyu10:003:1:1  石头 zhenqipill_001:1:1 真气  exppill_003:1:1经验  silver50:1:1礼金
+@ cmd 117 tongqian004:2:1  铜钱72fangyu10:003:1:1  72（石头名称拼音）10（等级）003:1:1
+@ cmd 113 清除背包物品
+@ cmd 110 Z600001 刷怪物  zj0601 - zj0616 是 60级金装套  
+@ cmd 117 z_jiuyanfengwushu_book:1:1:0:0|0:4:9|5:9|5   1（数量）：1（是否绑定）：0（是否限时）：11（品质颜色）zj0616 装备代码 可以递进试其他装备   06表示60级装备

@@ -1,0 +1,724 @@
+140122 18:41:54 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+140122 18:41:54  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+140122 18:41:55  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+140122 18:41:55  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+140122 18:41:56  InnoDB: Started; log sequence number 0 0
+140122 18:41:56 [Note] Event Scheduler: Loaded 0 events
+140122 18:41:56 [Note] D:\didiaossxz\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140122 18:45:06 [ERROR] Cannot find or open table logunicode/svr_params from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+140122 18:45:06 [ERROR] Cannot find or open table logunicode/svr_params from
+the internal data dictionary of InnoDB though the .frm file for the
+table exists. Maybe you have deleted and recreated InnoDB data
+files but have forgotten to delete the corresponding .frm files
+of InnoDB tables, or you have moved .frm files to another database?
+or, the table contains indexes that this version of the engine
+doesn't support.
+See http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+how you can resolve the problem.
+
+140122 19:13:57 [Note] D:\didiaossxz\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140122 19:13:57 [Note] Event Scheduler: Purging the queue. 0 events
+140122 19:13:57  InnoDB: Starting shutdown...
+140122 19:13:57  InnoDB: Shutdown completed; log sequence number 0 44233
+140122 19:13:57 [Warning] Forcing shutdown of 1 plugins
+140122 19:13:57 [Note] D:\didiaossxz\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140315 19:30:07 [Note] Plugin 'FEDERATED' is disabled.
+140315 19:30:08  InnoDB: Started; log sequence number 0 44233
+140315 19:30:08 [Note] Event Scheduler: Loaded 0 events
+140315 19:30:08 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`arean_data_rate` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`arean_years_table` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`ashx_report` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_basic` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_basic1` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_cheats` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_checkpoints` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_circle_quest` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_cornucopia_awards` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_currency` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_currency1` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_extra` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_facade` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_items` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_item_cool` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_limits` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_notifies` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_off_states` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_pets` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_quests` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_quests_history` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_rank_params` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_relation` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_reviews` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_shortcuts` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_sort_rank` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_spells` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_stat_sort` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_substitute` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_talents` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`char_title` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`contest_basic` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`cornucopia_awards` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`event_award` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`event_basic` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`event_history` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`event_token` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`exchange_failed_log` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`goods_shop` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`goods_shop1` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`goods_shop_items` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`goods_shop_sort` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`guild_activity` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`guild_basic` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`guild_member` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`item_attr_rates` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`item_consume_records` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`item_recoup` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`name_model_table` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`peak_template` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`pets_consume_records` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`prom_awards` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`prom_history` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`prom_winners` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`sale_agent` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`snda_bills` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`snda_bills_info` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`spell_special_basic` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`suite_gains` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`svr_bulletins` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`svr_params` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`sysware_items` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`ware_items` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`wastebook_gold` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`wastebook_mall` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`zu_golog` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`zu_groups` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`zu_rights` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`zu_rightsgroups` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_cache_logins` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_basic` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_checkpoints` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_currency` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_extra` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_facade` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_items` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_notifies` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_pets` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_quests` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_quests_history` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_relation` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_reviews` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_shortcuts` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_spells` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_substitute` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_talents` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_char_title` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_sysware_items` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_del_ware_items` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_server_stat` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_stat_char_addup` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_stat_char_daily` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_stat_char_maps` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:34  InnoDB: Error: table `ssunicode`.`_stat_char_sort` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:37  InnoDB: Error: table `logunicode`.`gm_issue` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:37  InnoDB: Error: table `logunicode`.`gm_issue_history` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:37  InnoDB: Error: table `logunicode`.`gm_response` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:37  InnoDB: Error: table `logunicode`.`gm_response_history` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:37  InnoDB: Error: table `logunicode`.`svr_params` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:32:37  InnoDB: Error: table `logunicode`.`_cache_logins` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.1/en/innodb-troubleshooting.html
+140315 19:50:28 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140315 19:50:28 [Note] Event Scheduler: Purging the queue. 0 events
+140315 19:50:30 [Warning] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 13  user: 'root'
+
+140315 19:50:30 [Warning] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 12  user: 'root'
+
+140315 19:50:30 [Warning] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 11  user: 'root'
+
+140315 19:50:30 [Warning] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 10  user: 'root'
+
+140315 19:50:30 [Warning] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 9  user: 'root'
+
+140315 19:50:30  InnoDB: Starting shutdown...
+140315 19:50:31  InnoDB: Shutdown completed; log sequence number 0 44243
+140315 19:50:31 [Warning] Forcing shutdown of 1 plugins
+140315 19:50:31 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140315 21:58:01 [Note] Plugin 'FEDERATED' is disabled.
+140315 21:58:01  InnoDB: Started; log sequence number 0 44243
+140315 21:58:01 [Note] Event Scheduler: Loaded 0 events
+140315 21:58:01 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140316  0:05:22 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140316  0:05:22 [Note] Event Scheduler: Purging the queue. 0 events
+140316  0:05:22  InnoDB: Starting shutdown...
+140316  0:05:23  InnoDB: Shutdown completed; log sequence number 0 44243
+140316  0:05:23 [Warning] Forcing shutdown of 1 plugins
+140316  0:05:23 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140316 23:33:22 [Note] Plugin 'FEDERATED' is disabled.
+140316 23:33:22  InnoDB: Started; log sequence number 0 44243
+140316 23:33:23 [Note] Event Scheduler: Loaded 0 events
+140316 23:33:23 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140317  0:00:41 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140317  0:00:41 [Note] Event Scheduler: Purging the queue. 0 events
+140317  0:00:41  InnoDB: Starting shutdown...
+140317  0:00:42  InnoDB: Shutdown completed; log sequence number 0 44243
+140317  0:00:42 [Warning] Forcing shutdown of 1 plugins
+140317  0:00:42 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140317  0:01:05 [Note] Plugin 'FEDERATED' is disabled.
+140317  0:01:05  InnoDB: Started; log sequence number 0 44243
+140317  0:01:05 [Note] Event Scheduler: Loaded 0 events
+140317  0:01:05 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140317  0:12:34 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140317  0:12:34 [Note] Event Scheduler: Purging the queue. 0 events
+140317  0:12:36 [Warning] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Forcing close of thread 12  user: 'root'
+
+140317  0:12:36  InnoDB: Starting shutdown...
+140317  0:12:37  InnoDB: Shutdown completed; log sequence number 0 44243
+140317  0:12:37 [Warning] Forcing shutdown of 1 plugins
+140317  0:12:37 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+
+140317  0:17:23 [Note] Plugin 'FEDERATED' is disabled.
+140317  0:17:23  InnoDB: Started; log sequence number 0 44243
+140317  0:17:23 [Note] Event Scheduler: Loaded 0 events
+140317  0:17:23 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '5.1.37-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+140317  0:31:22 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Normal shutdown
+
+140317  0:31:22 [Note] Event Scheduler: Purging the queue. 0 events
+140317  0:31:22  InnoDB: Starting shutdown...
+140317  0:31:23  InnoDB: Shutdown completed; log sequence number 0 44243
+140317  0:31:23 [Warning] Forcing shutdown of 1 plugins
+140317  0:31:23 [Note] D:\GPHDNTG\server\GPHWEB\MySQL5\bin\mysqld.exe: Shutdown complete
+

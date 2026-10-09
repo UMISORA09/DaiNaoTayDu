@@ -1,0 +1,2 @@
+jre6\bin\java -cp "./;lib/*;lib/Jetty/*;extensions/__lib__/*"   -server -Xloggc:logs/gc.log -XX:+PrintGCDetails -XX:+PrintGCApplicationStoppedTime -XX:+DisableExplicitGC -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSCompactAtFullCollection -XX:CMSFullGCsBeforeCompaction=0 -XX:SurvivorRatio=1 -Xms256m -Xmx768m -XX:PermSize=128M -XX:MaxPermSize=192M -jar dntg_start.jar &
+pause

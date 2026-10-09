@@ -1,0 +1,28 @@
+<config>
+	<lang>泰文</lang>
+	<langTag>thai</langTag>
+	<iscn>0</iscn>
+	<isxml>0</isxml>
+	<swfdll>//192.168.1.5/csvWeb/dntg/dll/TiangongDll.swf</swfdll>
+	<!-- java 配置文件路径 和 保存路径 （若配置和保存路径一致，导出时直接进行完整的覆盖）-->
+	<javapath>//192.168.1.5/tiangong.com/web/java/thai</javapath>
+	<javasavepath>//192.168.1.5/tiangong.com/web/java/thai</javasavepath>
+	
+	<!-- flash 配置文件路径 和 保存路径（若配置和保存路径一致，导出时直接进行完整的覆盖） -->
+	<flashpath>//192.168.1.5/tiangong.com/web/config/thai</flashpath>
+	<flashsavepath>//192.168.1.5/tiangong.com/web/config/thai</flashsavepath>
+	
+	<!-- 翻译字典位置（文件夹） -->
+	<dictpath>//192.168.1.5/csvWeb/dntg/trans/thai/dirc</dictpath>
+	<!-- xml保存位置 -->
+	<xmlpath>//192.168.1.5/csvWeb/dntg/trans/thai/</xmlpath>
+	<!-- 待翻译文件导出位置（文件夹） -->
+	<untranpath>//192.168.1.5/csvWeb/dntg/trans/thai/need</untranpath>
+	<!-- 需要被添加进待翻译列表的位置（文件夹）导出自fla文件 -->
+	<addpath>//192.168.1.5/csvWeb/dntg/trans/thai/add</addpath>
+	<!-- 旧的配置文件目录（文件夹） -->
+	<comppath>//192.168.1.5/csvWeb/dntg/trans/thai/old</comppath>
+	
+	<transefrompath>//192.168.1.5/csvWeb/dntg/trans/thai/lang/thai_language.lang</transefrompath>
+	
+</config>

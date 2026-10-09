@@ -1,0 +1,1040 @@
+Classfile jar:file:/D:/server/server/dntg_start.jar!/com/xianling/stage/model/element/monster/PetFactory.class
+  Last modified Feb 24, 2014; size 12926 bytes
+  MD5 checksum f8cb5a20eda36782e5ec788763d0d945
+  Compiled from "PetFactory.java"
+public class com.xianling.stage.model.element.monster.PetFactory
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Methodref          #105.#206     // java/lang/Object."<init>":()V
+    #2 = Fieldref           #104.#207     // com/xianling/stage/model/element/monster/PetFactory.meiRenConfigExportService:Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;
+    #3 = Fieldref           #104.#208     // com/xianling/stage/model/element/monster/PetFactory.zuoQiReviveConfigExportService:Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;
+    #4 = Fieldref           #104.#209     // com/xianling/stage/model/element/monster/PetFactory.meiRenReviveConfigExportService:Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;
+    #5 = Fieldref           #104.#210     // com/xianling/stage/model/element/monster/PetFactory.skillBookExportService:Lcom/xianling/bus/skillbook/export/ISkillBookExportService;
+    #6 = Fieldref           #104.#211     // com/xianling/stage/model/element/monster/PetFactory.skillConfigExportService:Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+    #7 = Fieldref           #104.#212     // com/xianling/stage/model/element/monster/PetFactory.chongWuBiaoConfigExportConfigService:Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;
+    #8 = Methodref          #213.#214     // java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+    #9 = InterfaceMethodref #215.#216     // com/xianling/bus/meiren/configure/export/IMeiRenConfigExportService.getMeiRenConfigByMeiRenId:(Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/meiren/configure/export/impl/MeiRenConfig;
+   #10 = Class              #217          // com/xianling/stage/model/element/monster/MeirenPet
+   #11 = Methodref          #218.#219     // com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getName:()Ljava/lang/String;
+   #12 = InterfaceMethodref #220.#221     // com/xianling/stage/model/element/role/IRole.getCamp:()Ljava/lang/String;
+   #13 = Methodref          #218.#222     // com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getMeirenTypeId:()Ljava/lang/String;
+   #14 = Methodref          #10.#223      // com/xianling/stage/model/element/monster/MeirenPet."<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;)V
+   #15 = Methodref          #218.#224     // com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getSkillList:()Ljava/util/List;
+   #16 = Methodref          #104.#225     // com/xianling/stage/model/element/monster/PetFactory._create:(Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List;I)Lcom/xianling/stage/model/element/monster/Pet;
+   #17 = Methodref          #226.#227     // com/xianling/stage/model/element/monster/PetFactoryHelper.replaceMeirenLevelAttribute:(Lcom/xianling/stage/model/element/monster/IPet;)V
+   #18 = InterfaceMethodref #228.#229     // com/xianling/stage/configure/export/IMeirenReviveConfigExportService.loadConfig:()Lcom/xianling/stage/configure/export/impl/MeirenReviveConfig;
+   #19 = Methodref          #230.#231     // com/xianling/stage/configure/export/impl/MeirenReviveConfig.getRecoveryInterval:()I
+   #20 = Methodref          #232.#233     // com/xianling/stage/model/element/monster/Pet.setHpInterVal:(I)V
+   #21 = InterfaceMethodref #220.#234     // com/xianling/stage/model/element/role/IRole.getBusinessData:()Lcom/xianling/stage/model/element/role/RoleBusinessData;
+   #22 = Methodref          #235.#236     // com/xianling/stage/model/element/role/RoleBusinessData.getMeirenData:()Lcom/xianling/stage/model/element/role/business/MeirenBusinessData;
+   #23 = Methodref          #237.#238     // com/xianling/stage/model/element/role/business/MeirenBusinessData.getCurMeirenType:()Ljava/lang/String;
+   #24 = Methodref          #232.#239     // com/xianling/stage/model/element/monster/Pet.getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+   #25 = InterfaceMethodref #240.#241     // com/xianling/stage/model/core/element/IFightAttribute.resetHpMp:()V
+   #26 = Methodref          #237.#242     // com/xianling/stage/model/element/role/business/MeirenBusinessData.getCurHp:()Ljava/lang/Integer;
+   #27 = Methodref          #218.#243     // com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getMaxHp:()I
+   #28 = Methodref          #237.#244     // com/xianling/stage/model/element/role/business/MeirenBusinessData.setCurHp:(Ljava/lang/Integer;)V
+   #29 = Methodref          #213.#245     // java/lang/Integer.intValue:()I
+   #30 = InterfaceMethodref #240.#246     // com/xianling/stage/model/core/element/IFightAttribute.setCurHp:(F)V
+   #31 = Class              #247          // com/xianling/stage/model/element/monster/ZuoQiPet
+   #32 = Methodref          #248.#219     // com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig.getName:()Ljava/lang/String;
+   #33 = Methodref          #248.#249     // com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig.getRank:()I
+   #34 = Methodref          #31.#250      // com/xianling/stage/model/element/monster/ZuoQiPet."<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;I)V
+   #35 = Methodref          #248.#251     // com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig.getLevelConfigByLevel:(I)Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig;
+   #36 = Methodref          #252.#224     // com/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig.getSkillList:()Ljava/util/List;
+   #37 = Methodref          #226.#253     // com/xianling/stage/model/element/monster/PetFactoryHelper.replaceZuoqiLevelAttribute:(Lcom/xianling/stage/model/element/monster/ZuoQiPet;)V
+   #38 = InterfaceMethodref #254.#255     // com/xianling/stage/configure/export/IZuoqiReviveConfigExportService.loadConfig:()Lcom/xianling/stage/configure/export/impl/ZuoQiReviveConfig;
+   #39 = Methodref          #256.#231     // com/xianling/stage/configure/export/impl/ZuoQiReviveConfig.getRecoveryInterval:()I
+   #40 = Methodref          #31.#233      // com/xianling/stage/model/element/monster/ZuoQiPet.setHpInterVal:(I)V
+   #41 = Methodref          #31.#239      // com/xianling/stage/model/element/monster/ZuoQiPet.getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+   #42 = Methodref          #235.#257     // com/xianling/stage/model/element/role/RoleBusinessData.getZuoQiBussinessData:()Lcom/xianling/stage/model/element/role/business/ZuoQiBussinessData;
+   #43 = Methodref          #258.#259     // com/xianling/stage/model/element/role/business/ZuoQiBussinessData.getCurHp:()I
+   #44 = Class              #260          // com/xianling/stage/model/element/monster/BaoBaoPet
+   #45 = InterfaceMethodref #220.#219     // com/xianling/stage/model/element/role/IRole.getName:()Ljava/lang/String;
+   #46 = Methodref          #44.#261      // com/xianling/stage/model/element/monster/BaoBaoPet."<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;IIF)V
+   #47 = InterfaceMethodref #262.#263     // com/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService.load:(Ljava/lang/String;I)Lcom/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig;
+   #48 = Methodref          #44.#264      // com/xianling/stage/model/element/monster/BaoBaoPet.getLevel:()I
+   #49 = Methodref          #265.#266     // com/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig.getSkillids:()Ljava/util/List;
+   #50 = Methodref          #265.#267     // com/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig.getJieshu:()I
+   #51 = Methodref          #226.#268     // com/xianling/stage/model/element/monster/PetFactoryHelper.replaceBaoBaoAttribute:(Lcom/xianling/stage/model/element/monster/BaoBaoPet;)V
+   #52 = Methodref          #232.#269     // com/xianling/stage/model/element/monster/Pet.setLevel:(I)V
+   #53 = Class              #270          // com/xianling/stage/model/core/element/impl/state/StateManager
+   #54 = Methodref          #53.#206      // com/xianling/stage/model/core/element/impl/state/StateManager."<init>":()V
+   #55 = Methodref          #232.#271     // com/xianling/stage/model/element/monster/Pet.setStateManager:(Lcom/xianling/stage/model/core/element/IStateManager;)V
+   #56 = Class              #272          // com/xianling/stage/model/element/role/PetFightAttribute
+   #57 = Methodref          #273.#274     // com/xianling/stage/model/core/attribute/impl/AttributeFormulaSearcherFactory.getFormulaSearcher:()Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;
+   #58 = Methodref          #56.#275      // com/xianling/stage/model/element/role/PetFightAttribute."<init>":(Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;)V
+   #59 = Methodref          #232.#276     // com/xianling/stage/model/element/monster/Pet.getOwner:()Lcom/xianling/stage/model/element/role/IRole;
+   #60 = InterfaceMethodref #220.#239     // com/xianling/stage/model/element/role/IRole.getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+   #61 = Methodref          #56.#277      // com/xianling/stage/model/element/role/PetFightAttribute.setRoleFightAttribute:(Lcom/xianling/stage/model/core/element/IFightAttribute;)V
+   #62 = Methodref          #232.#278     // com/xianling/stage/model/element/monster/Pet.setFightAttribute:(Lcom/xianling/stage/model/core/element/IFightAttribute;)V
+   #63 = Class              #279          // com/xianling/stage/model/element/impl/buff/BuffManager
+   #64 = Methodref          #63.#280      // com/xianling/stage/model/element/impl/buff/BuffManager."<init>":(Lcom/xianling/stage/model/core/element/IFighter;)V
+   #65 = Methodref          #232.#281     // com/xianling/stage/model/element/monster/Pet.setBuffManager:(Lcom/xianling/stage/model/core/element/IBuffManager;)V
+   #66 = Class              #282          // com/xianling/stage/schedule/StageScheduleManager
+   #67 = Methodref          #66.#206      // com/xianling/stage/schedule/StageScheduleManager."<init>":()V
+   #68 = Methodref          #232.#283     // com/xianling/stage/model/element/monster/Pet.setScheduleManager:(Lcom/xianling/stage/schedule/StageScheduleManager;)V
+   #69 = Class              #284          // com/xianling/stage/model/core/element/impl/skill/SkillManager
+   #70 = Methodref          #69.#280      // com/xianling/stage/model/core/element/impl/skill/SkillManager."<init>":(Lcom/xianling/stage/model/core/element/IFighter;)V
+   #71 = Methodref          #232.#285     // com/xianling/stage/model/element/monster/Pet.setSkillManager:(Lcom/xianling/stage/model/core/element/ISkillManager;)V
+   #72 = Class              #286          // com/xianling/stage/model/element/monster/PetEventManager
+   #73 = Methodref          #72.#287      // com/xianling/stage/model/element/monster/PetEventManager."<init>":(Lcom/xianling/stage/model/element/monster/IPet;)V
+   #74 = Methodref          #232.#288     // com/xianling/stage/model/element/monster/Pet.setEventManager:(Lcom/xianling/stage/model/core/element/IElementEventManager;)V
+   #75 = Class              #289          // com/xianling/stage/model/fight/hatred/PetHatredManager
+   #76 = Class              #290          // com/xianling/stage/model/fight/hatred/PetHatredRule
+   #77 = Methodref          #76.#287      // com/xianling/stage/model/fight/hatred/PetHatredRule."<init>":(Lcom/xianling/stage/model/element/monster/IPet;)V
+   #78 = Methodref          #75.#291      // com/xianling/stage/model/fight/hatred/PetHatredManager."<init>":(Lcom/xianling/stage/model/element/monster/IPet;Lcom/xianling/stage/model/core/element/impl/hatred/IHatredRule;)V
+   #79 = Methodref          #232.#292     // com/xianling/stage/model/element/monster/Pet.setHatredManager:(Lcom/xianling/stage/model/core/element/IHatredManager;)V
+   #80 = InterfaceMethodref #293.#294     // java/util/List.iterator:()Ljava/util/Iterator;
+   #81 = InterfaceMethodref #295.#296     // java/util/Iterator.hasNext:()Z
+   #82 = InterfaceMethodref #295.#297     // java/util/Iterator.next:()Ljava/lang/Object;
+   #83 = Class              #298          // java/lang/String
+   #84 = Fieldref           #299.#211     // com/xianling/stage/utils/ComponentUtil.skillConfigExportService:Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+   #85 = InterfaceMethodref #300.#301     // com/xianling/bus/skill/configure/export/ISkillConfigExportService.loadSkillByLevel:(Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+   #86 = Methodref          #302.#303     // com/xianling/bus/skill/configure/export/impl/SkillConfig.getSkillId:()Ljava/lang/String;
+   #87 = Methodref          #304.#305     // com/xianling/stage/model/core/element/impl/skill/SkillFactory.create:(Ljava/lang/String;)Lcom/xianling/stage/model/core/element/ISkill;
+   #88 = Methodref          #232.#306     // com/xianling/stage/model/element/monster/Pet.getSkillManager:()Lcom/xianling/stage/model/core/element/ISkillManager;
+   #89 = InterfaceMethodref #307.#308     // com/xianling/stage/model/core/element/ISkillManager.addSkill:(Lcom/xianling/stage/model/core/element/ISkill;)V
+   #90 = InterfaceMethodref #220.#309     // com/xianling/stage/model/element/role/IRole.getId:()Ljava/lang/String;
+   #91 = InterfaceMethodref #310.#311     // com/xianling/bus/skillbook/export/ISkillBookExportService.getSkillBooks:(Ljava/lang/String;)Ljava/util/List;
+   #92 = InterfaceMethodref #293.#312     // java/util/List.size:()I
+   #93 = Class              #313          // com/xianling/bus/skillbook/export/SkillBookWrapper
+   #94 = Methodref          #93.#303      // com/xianling/bus/skillbook/export/SkillBookWrapper.getSkillId:()Ljava/lang/String;
+   #95 = InterfaceMethodref #300.#314     // com/xianling/bus/skill/configure/export/ISkillConfigExportService.loadById:(Ljava/lang/String;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+   #96 = Fieldref           #315.#316     // com/xianling/gamerule/skill/SkillType.ACTIVE:Lcom/xianling/gamerule/skill/SkillType;
+   #97 = Methodref          #302.#317     // com/xianling/bus/skill/configure/export/impl/SkillConfig.getSkillType:()Lcom/xianling/gamerule/skill/SkillType;
+   #98 = Methodref          #315.#318     // com/xianling/gamerule/skill/SkillType.equals:(Ljava/lang/Object;)Z
+   #99 = InterfaceMethodref #300.#319     // com/xianling/bus/skill/configure/export/ISkillConfigExportService.getErduantiaoSkillId:()Ljava/lang/String;
+  #100 = Methodref          #83.#318      // java/lang/String.equals:(Ljava/lang/Object;)Z
+  #101 = Class              #320          // com/xianling/stage/model/element/monster/DefaultPetAi
+  #102 = Methodref          #101.#287     // com/xianling/stage/model/element/monster/DefaultPetAi."<init>":(Lcom/xianling/stage/model/element/monster/IPet;)V
+  #103 = Methodref          #232.#321     // com/xianling/stage/model/element/monster/Pet.setAi:(Lcom/xianling/stage/model/element/monster/IAi;)V
+  #104 = Class              #322          // com/xianling/stage/model/element/monster/PetFactory
+  #105 = Class              #323          // java/lang/Object
+  #106 = Utf8               zuoQiReviveConfigExportService
+  #107 = Utf8               Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;
+  #108 = Utf8               meiRenConfigExportService
+  #109 = Utf8               Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;
+  #110 = Utf8               meiRenReviveConfigExportService
+  #111 = Utf8               Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;
+  #112 = Utf8               skillBookExportService
+  #113 = Utf8               Lcom/xianling/bus/skillbook/export/ISkillBookExportService;
+  #114 = Utf8               skillConfigExportService
+  #115 = Utf8               Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+  #116 = Utf8               chongWuBiaoConfigExportConfigService
+  #117 = Utf8               Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;
+  #118 = Utf8               <init>
+  #119 = Utf8               ()V
+  #120 = Utf8               Code
+  #121 = Utf8               LineNumberTable
+  #122 = Utf8               LocalVariableTable
+  #123 = Utf8               this
+  #124 = Utf8               Lcom/xianling/stage/model/element/monster/PetFactory;
+  #125 = Utf8               setMeiRenConfigExportService
+  #126 = Utf8               (Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;)V
+  #127 = Utf8               RuntimeVisibleAnnotations
+  #128 = Utf8               Lorg/springframework/beans/factory/annotation/Autowired;
+  #129 = Utf8               setZuoQiReviveConfigExportService
+  #130 = Utf8               (Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;)V
+  #131 = Utf8               setMeiRenReviveConfigExportService
+  #132 = Utf8               (Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;)V
+  #133 = Utf8               setSkillBookExportService
+  #134 = Utf8               (Lcom/xianling/bus/skillbook/export/ISkillBookExportService;)V
+  #135 = Utf8               setSkillConfigExportService
+  #136 = Utf8               (Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;)V
+  #137 = Utf8               setChongWuBiaoConfigExportConfigService
+  #138 = Utf8               (Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;)V
+  #139 = Utf8               createMeiren
+  #140 = Utf8               (Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;I)Lcom/xianling/stage/model/element/monster/Pet;
+  #141 = Utf8               id
+  #142 = Utf8               Ljava/lang/String;
+  #143 = Utf8               owner
+  #144 = Utf8               Lcom/xianling/stage/model/element/role/IRole;
+  #145 = Utf8               meirenTypeId
+  #146 = Utf8               meirenLevel
+  #147 = Utf8               I
+  #148 = Utf8               meirenConfig
+  #149 = Utf8               Lcom/xianling/bus/meiren/configure/export/impl/MeiRenConfig;
+  #150 = Utf8               monster
+  #151 = Utf8               Lcom/xianling/stage/model/element/monster/Pet;
+  #152 = Utf8               meirenData
+  #153 = Utf8               Lcom/xianling/stage/model/element/role/business/MeirenBusinessData;
+  #154 = Utf8               StackMapTable
+  #155 = Class              #324          // com/xianling/bus/meiren/configure/export/impl/MeiRenConfig
+  #156 = Class              #325          // com/xianling/stage/model/element/monster/Pet
+  #157 = Class              #326          // com/xianling/stage/model/element/role/business/MeirenBusinessData
+  #158 = Utf8               createZuoQiPet
+  #159 = Utf8               (Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig;I)Lcom/xianling/stage/model/element/monster/ZuoQiPet;
+  #160 = Utf8               role
+  #161 = Utf8               zuoqiConfig
+  #162 = Utf8               Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig;
+  #163 = Utf8               zuoqiLevel
+  #164 = Utf8               Lcom/xianling/stage/model/element/monster/ZuoQiPet;
+  #165 = Utf8               levelConfig
+  #166 = Utf8               Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig;
+  #167 = Utf8               createBaoBaoPei
+  #168 = Utf8               (Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;IIF)Lcom/xianling/stage/model/element/monster/BaoBaoPet;
+  #169 = Utf8               petId
+  #170 = Utf8               petLevel
+  #171 = Utf8               petRank
+  #172 = Utf8               shanghai
+  #173 = Utf8               F
+  #174 = Utf8               baoBaoPet
+  #175 = Utf8               Lcom/xianling/stage/model/element/monster/BaoBaoPet;
+  #176 = Utf8               chongWuBiaoConfig
+  #177 = Utf8               Lcom/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig;
+  #178 = Utf8               _create
+  #179 = Utf8               (Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List;I)Lcom/xianling/stage/model/element/monster/Pet;
+  #180 = Utf8               skillConfig
+  #181 = Utf8               Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+  #182 = Utf8               skill
+  #183 = Utf8               Lcom/xianling/stage/model/core/element/ISkill;
+  #184 = Utf8               skillCategory
+  #185 = Utf8               i$
+  #186 = Utf8               Ljava/util/Iterator;
+  #187 = Utf8               skillBookWrapper
+  #188 = Utf8               Lcom/xianling/bus/skillbook/export/SkillBookWrapper;
+  #189 = Utf8               skillBookWrappers
+  #190 = Utf8               Ljava/util/List;
+  #191 = Utf8               skillList
+  #192 = Utf8               skilllevel
+  #193 = Utf8               petFightAttribute
+  #194 = Utf8               Lcom/xianling/stage/model/element/role/PetFightAttribute;
+  #195 = Utf8               LocalVariableTypeTable
+  #196 = Utf8               Ljava/util/List<Lcom/xianling/bus/skillbook/export/SkillBookWrapper;>;
+  #197 = Utf8               Ljava/util/List<Ljava/lang/String;>;
+  #198 = Class              #272          // com/xianling/stage/model/element/role/PetFightAttribute
+  #199 = Class              #327          // java/util/Iterator
+  #200 = Class              #328          // java/util/List
+  #201 = Utf8               Signature
+  #202 = Utf8               (Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List<Ljava/lang/String;>;I)Lcom/xianling/stage/model/element/monster/Pet;
+  #203 = Utf8               SourceFile
+  #204 = Utf8               PetFactory.java
+  #205 = Utf8               Lorg/springframework/stereotype/Component;
+  #206 = NameAndType        #118:#119     // "<init>":()V
+  #207 = NameAndType        #108:#109     // meiRenConfigExportService:Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;
+  #208 = NameAndType        #106:#107     // zuoQiReviveConfigExportService:Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;
+  #209 = NameAndType        #110:#111     // meiRenReviveConfigExportService:Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;
+  #210 = NameAndType        #112:#113     // skillBookExportService:Lcom/xianling/bus/skillbook/export/ISkillBookExportService;
+  #211 = NameAndType        #114:#115     // skillConfigExportService:Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+  #212 = NameAndType        #116:#117     // chongWuBiaoConfigExportConfigService:Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;
+  #213 = Class              #329          // java/lang/Integer
+  #214 = NameAndType        #330:#331     // valueOf:(I)Ljava/lang/Integer;
+  #215 = Class              #332          // com/xianling/bus/meiren/configure/export/IMeiRenConfigExportService
+  #216 = NameAndType        #333:#334     // getMeiRenConfigByMeiRenId:(Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/meiren/configure/export/impl/MeiRenConfig;
+  #217 = Utf8               com/xianling/stage/model/element/monster/MeirenPet
+  #218 = Class              #324          // com/xianling/bus/meiren/configure/export/impl/MeiRenConfig
+  #219 = NameAndType        #335:#336     // getName:()Ljava/lang/String;
+  #220 = Class              #337          // com/xianling/stage/model/element/role/IRole
+  #221 = NameAndType        #338:#336     // getCamp:()Ljava/lang/String;
+  #222 = NameAndType        #339:#336     // getMeirenTypeId:()Ljava/lang/String;
+  #223 = NameAndType        #118:#340     // "<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;)V
+  #224 = NameAndType        #341:#342     // getSkillList:()Ljava/util/List;
+  #225 = NameAndType        #178:#179     // _create:(Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List;I)Lcom/xianling/stage/model/element/monster/Pet;
+  #226 = Class              #343          // com/xianling/stage/model/element/monster/PetFactoryHelper
+  #227 = NameAndType        #344:#345     // replaceMeirenLevelAttribute:(Lcom/xianling/stage/model/element/monster/IPet;)V
+  #228 = Class              #346          // com/xianling/stage/configure/export/IMeirenReviveConfigExportService
+  #229 = NameAndType        #347:#348     // loadConfig:()Lcom/xianling/stage/configure/export/impl/MeirenReviveConfig;
+  #230 = Class              #349          // com/xianling/stage/configure/export/impl/MeirenReviveConfig
+  #231 = NameAndType        #350:#351     // getRecoveryInterval:()I
+  #232 = Class              #325          // com/xianling/stage/model/element/monster/Pet
+  #233 = NameAndType        #352:#353     // setHpInterVal:(I)V
+  #234 = NameAndType        #354:#355     // getBusinessData:()Lcom/xianling/stage/model/element/role/RoleBusinessData;
+  #235 = Class              #356          // com/xianling/stage/model/element/role/RoleBusinessData
+  #236 = NameAndType        #357:#358     // getMeirenData:()Lcom/xianling/stage/model/element/role/business/MeirenBusinessData;
+  #237 = Class              #326          // com/xianling/stage/model/element/role/business/MeirenBusinessData
+  #238 = NameAndType        #359:#336     // getCurMeirenType:()Ljava/lang/String;
+  #239 = NameAndType        #360:#361     // getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+  #240 = Class              #362          // com/xianling/stage/model/core/element/IFightAttribute
+  #241 = NameAndType        #363:#119     // resetHpMp:()V
+  #242 = NameAndType        #364:#365     // getCurHp:()Ljava/lang/Integer;
+  #243 = NameAndType        #366:#351     // getMaxHp:()I
+  #244 = NameAndType        #367:#368     // setCurHp:(Ljava/lang/Integer;)V
+  #245 = NameAndType        #369:#351     // intValue:()I
+  #246 = NameAndType        #367:#370     // setCurHp:(F)V
+  #247 = Utf8               com/xianling/stage/model/element/monster/ZuoQiPet
+  #248 = Class              #371          // com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig
+  #249 = NameAndType        #372:#351     // getRank:()I
+  #250 = NameAndType        #118:#373     // "<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;I)V
+  #251 = NameAndType        #374:#375     // getLevelConfigByLevel:(I)Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig;
+  #252 = Class              #376          // com/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig
+  #253 = NameAndType        #377:#378     // replaceZuoqiLevelAttribute:(Lcom/xianling/stage/model/element/monster/ZuoQiPet;)V
+  #254 = Class              #379          // com/xianling/stage/configure/export/IZuoqiReviveConfigExportService
+  #255 = NameAndType        #347:#380     // loadConfig:()Lcom/xianling/stage/configure/export/impl/ZuoQiReviveConfig;
+  #256 = Class              #381          // com/xianling/stage/configure/export/impl/ZuoQiReviveConfig
+  #257 = NameAndType        #382:#383     // getZuoQiBussinessData:()Lcom/xianling/stage/model/element/role/business/ZuoQiBussinessData;
+  #258 = Class              #384          // com/xianling/stage/model/element/role/business/ZuoQiBussinessData
+  #259 = NameAndType        #364:#351     // getCurHp:()I
+  #260 = Utf8               com/xianling/stage/model/element/monster/BaoBaoPet
+  #261 = NameAndType        #118:#385     // "<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;IIF)V
+  #262 = Class              #386          // com/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService
+  #263 = NameAndType        #387:#388     // load:(Ljava/lang/String;I)Lcom/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig;
+  #264 = NameAndType        #389:#351     // getLevel:()I
+  #265 = Class              #390          // com/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig
+  #266 = NameAndType        #391:#342     // getSkillids:()Ljava/util/List;
+  #267 = NameAndType        #392:#351     // getJieshu:()I
+  #268 = NameAndType        #393:#394     // replaceBaoBaoAttribute:(Lcom/xianling/stage/model/element/monster/BaoBaoPet;)V
+  #269 = NameAndType        #395:#353     // setLevel:(I)V
+  #270 = Utf8               com/xianling/stage/model/core/element/impl/state/StateManager
+  #271 = NameAndType        #396:#397     // setStateManager:(Lcom/xianling/stage/model/core/element/IStateManager;)V
+  #272 = Utf8               com/xianling/stage/model/element/role/PetFightAttribute
+  #273 = Class              #398          // com/xianling/stage/model/core/attribute/impl/AttributeFormulaSearcherFactory
+  #274 = NameAndType        #399:#400     // getFormulaSearcher:()Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;
+  #275 = NameAndType        #118:#401     // "<init>":(Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;)V
+  #276 = NameAndType        #402:#403     // getOwner:()Lcom/xianling/stage/model/element/role/IRole;
+  #277 = NameAndType        #404:#405     // setRoleFightAttribute:(Lcom/xianling/stage/model/core/element/IFightAttribute;)V
+  #278 = NameAndType        #406:#405     // setFightAttribute:(Lcom/xianling/stage/model/core/element/IFightAttribute;)V
+  #279 = Utf8               com/xianling/stage/model/element/impl/buff/BuffManager
+  #280 = NameAndType        #118:#407     // "<init>":(Lcom/xianling/stage/model/core/element/IFighter;)V
+  #281 = NameAndType        #408:#409     // setBuffManager:(Lcom/xianling/stage/model/core/element/IBuffManager;)V
+  #282 = Utf8               com/xianling/stage/schedule/StageScheduleManager
+  #283 = NameAndType        #410:#411     // setScheduleManager:(Lcom/xianling/stage/schedule/StageScheduleManager;)V
+  #284 = Utf8               com/xianling/stage/model/core/element/impl/skill/SkillManager
+  #285 = NameAndType        #412:#413     // setSkillManager:(Lcom/xianling/stage/model/core/element/ISkillManager;)V
+  #286 = Utf8               com/xianling/stage/model/element/monster/PetEventManager
+  #287 = NameAndType        #118:#345     // "<init>":(Lcom/xianling/stage/model/element/monster/IPet;)V
+  #288 = NameAndType        #414:#415     // setEventManager:(Lcom/xianling/stage/model/core/element/IElementEventManager;)V
+  #289 = Utf8               com/xianling/stage/model/fight/hatred/PetHatredManager
+  #290 = Utf8               com/xianling/stage/model/fight/hatred/PetHatredRule
+  #291 = NameAndType        #118:#416     // "<init>":(Lcom/xianling/stage/model/element/monster/IPet;Lcom/xianling/stage/model/core/element/impl/hatred/IHatredRule;)V
+  #292 = NameAndType        #417:#418     // setHatredManager:(Lcom/xianling/stage/model/core/element/IHatredManager;)V
+  #293 = Class              #328          // java/util/List
+  #294 = NameAndType        #419:#420     // iterator:()Ljava/util/Iterator;
+  #295 = Class              #327          // java/util/Iterator
+  #296 = NameAndType        #421:#422     // hasNext:()Z
+  #297 = NameAndType        #423:#424     // next:()Ljava/lang/Object;
+  #298 = Utf8               java/lang/String
+  #299 = Class              #425          // com/xianling/stage/utils/ComponentUtil
+  #300 = Class              #426          // com/xianling/bus/skill/configure/export/ISkillConfigExportService
+  #301 = NameAndType        #427:#428     // loadSkillByLevel:(Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+  #302 = Class              #429          // com/xianling/bus/skill/configure/export/impl/SkillConfig
+  #303 = NameAndType        #430:#336     // getSkillId:()Ljava/lang/String;
+  #304 = Class              #431          // com/xianling/stage/model/core/element/impl/skill/SkillFactory
+  #305 = NameAndType        #432:#433     // create:(Ljava/lang/String;)Lcom/xianling/stage/model/core/element/ISkill;
+  #306 = NameAndType        #434:#435     // getSkillManager:()Lcom/xianling/stage/model/core/element/ISkillManager;
+  #307 = Class              #436          // com/xianling/stage/model/core/element/ISkillManager
+  #308 = NameAndType        #437:#438     // addSkill:(Lcom/xianling/stage/model/core/element/ISkill;)V
+  #309 = NameAndType        #439:#336     // getId:()Ljava/lang/String;
+  #310 = Class              #440          // com/xianling/bus/skillbook/export/ISkillBookExportService
+  #311 = NameAndType        #441:#442     // getSkillBooks:(Ljava/lang/String;)Ljava/util/List;
+  #312 = NameAndType        #443:#351     // size:()I
+  #313 = Utf8               com/xianling/bus/skillbook/export/SkillBookWrapper
+  #314 = NameAndType        #444:#445     // loadById:(Ljava/lang/String;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+  #315 = Class              #446          // com/xianling/gamerule/skill/SkillType
+  #316 = NameAndType        #447:#448     // ACTIVE:Lcom/xianling/gamerule/skill/SkillType;
+  #317 = NameAndType        #449:#450     // getSkillType:()Lcom/xianling/gamerule/skill/SkillType;
+  #318 = NameAndType        #451:#452     // equals:(Ljava/lang/Object;)Z
+  #319 = NameAndType        #453:#336     // getErduantiaoSkillId:()Ljava/lang/String;
+  #320 = Utf8               com/xianling/stage/model/element/monster/DefaultPetAi
+  #321 = NameAndType        #454:#455     // setAi:(Lcom/xianling/stage/model/element/monster/IAi;)V
+  #322 = Utf8               com/xianling/stage/model/element/monster/PetFactory
+  #323 = Utf8               java/lang/Object
+  #324 = Utf8               com/xianling/bus/meiren/configure/export/impl/MeiRenConfig
+  #325 = Utf8               com/xianling/stage/model/element/monster/Pet
+  #326 = Utf8               com/xianling/stage/model/element/role/business/MeirenBusinessData
+  #327 = Utf8               java/util/Iterator
+  #328 = Utf8               java/util/List
+  #329 = Utf8               java/lang/Integer
+  #330 = Utf8               valueOf
+  #331 = Utf8               (I)Ljava/lang/Integer;
+  #332 = Utf8               com/xianling/bus/meiren/configure/export/IMeiRenConfigExportService
+  #333 = Utf8               getMeiRenConfigByMeiRenId
+  #334 = Utf8               (Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/meiren/configure/export/impl/MeiRenConfig;
+  #335 = Utf8               getName
+  #336 = Utf8               ()Ljava/lang/String;
+  #337 = Utf8               com/xianling/stage/model/element/role/IRole
+  #338 = Utf8               getCamp
+  #339 = Utf8               getMeirenTypeId
+  #340 = Utf8               (Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;)V
+  #341 = Utf8               getSkillList
+  #342 = Utf8               ()Ljava/util/List;
+  #343 = Utf8               com/xianling/stage/model/element/monster/PetFactoryHelper
+  #344 = Utf8               replaceMeirenLevelAttribute
+  #345 = Utf8               (Lcom/xianling/stage/model/element/monster/IPet;)V
+  #346 = Utf8               com/xianling/stage/configure/export/IMeirenReviveConfigExportService
+  #347 = Utf8               loadConfig
+  #348 = Utf8               ()Lcom/xianling/stage/configure/export/impl/MeirenReviveConfig;
+  #349 = Utf8               com/xianling/stage/configure/export/impl/MeirenReviveConfig
+  #350 = Utf8               getRecoveryInterval
+  #351 = Utf8               ()I
+  #352 = Utf8               setHpInterVal
+  #353 = Utf8               (I)V
+  #354 = Utf8               getBusinessData
+  #355 = Utf8               ()Lcom/xianling/stage/model/element/role/RoleBusinessData;
+  #356 = Utf8               com/xianling/stage/model/element/role/RoleBusinessData
+  #357 = Utf8               getMeirenData
+  #358 = Utf8               ()Lcom/xianling/stage/model/element/role/business/MeirenBusinessData;
+  #359 = Utf8               getCurMeirenType
+  #360 = Utf8               getFightAttribute
+  #361 = Utf8               ()Lcom/xianling/stage/model/core/element/IFightAttribute;
+  #362 = Utf8               com/xianling/stage/model/core/element/IFightAttribute
+  #363 = Utf8               resetHpMp
+  #364 = Utf8               getCurHp
+  #365 = Utf8               ()Ljava/lang/Integer;
+  #366 = Utf8               getMaxHp
+  #367 = Utf8               setCurHp
+  #368 = Utf8               (Ljava/lang/Integer;)V
+  #369 = Utf8               intValue
+  #370 = Utf8               (F)V
+  #371 = Utf8               com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig
+  #372 = Utf8               getRank
+  #373 = Utf8               (Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;I)V
+  #374 = Utf8               getLevelConfigByLevel
+  #375 = Utf8               (I)Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig;
+  #376 = Utf8               com/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig
+  #377 = Utf8               replaceZuoqiLevelAttribute
+  #378 = Utf8               (Lcom/xianling/stage/model/element/monster/ZuoQiPet;)V
+  #379 = Utf8               com/xianling/stage/configure/export/IZuoqiReviveConfigExportService
+  #380 = Utf8               ()Lcom/xianling/stage/configure/export/impl/ZuoQiReviveConfig;
+  #381 = Utf8               com/xianling/stage/configure/export/impl/ZuoQiReviveConfig
+  #382 = Utf8               getZuoQiBussinessData
+  #383 = Utf8               ()Lcom/xianling/stage/model/element/role/business/ZuoQiBussinessData;
+  #384 = Utf8               com/xianling/stage/model/element/role/business/ZuoQiBussinessData
+  #385 = Utf8               (Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;IIF)V
+  #386 = Utf8               com/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService
+  #387 = Utf8               load
+  #388 = Utf8               (Ljava/lang/String;I)Lcom/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig;
+  #389 = Utf8               getLevel
+  #390 = Utf8               com/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig
+  #391 = Utf8               getSkillids
+  #392 = Utf8               getJieshu
+  #393 = Utf8               replaceBaoBaoAttribute
+  #394 = Utf8               (Lcom/xianling/stage/model/element/monster/BaoBaoPet;)V
+  #395 = Utf8               setLevel
+  #396 = Utf8               setStateManager
+  #397 = Utf8               (Lcom/xianling/stage/model/core/element/IStateManager;)V
+  #398 = Utf8               com/xianling/stage/model/core/attribute/impl/AttributeFormulaSearcherFactory
+  #399 = Utf8               getFormulaSearcher
+  #400 = Utf8               ()Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;
+  #401 = Utf8               (Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;)V
+  #402 = Utf8               getOwner
+  #403 = Utf8               ()Lcom/xianling/stage/model/element/role/IRole;
+  #404 = Utf8               setRoleFightAttribute
+  #405 = Utf8               (Lcom/xianling/stage/model/core/element/IFightAttribute;)V
+  #406 = Utf8               setFightAttribute
+  #407 = Utf8               (Lcom/xianling/stage/model/core/element/IFighter;)V
+  #408 = Utf8               setBuffManager
+  #409 = Utf8               (Lcom/xianling/stage/model/core/element/IBuffManager;)V
+  #410 = Utf8               setScheduleManager
+  #411 = Utf8               (Lcom/xianling/stage/schedule/StageScheduleManager;)V
+  #412 = Utf8               setSkillManager
+  #413 = Utf8               (Lcom/xianling/stage/model/core/element/ISkillManager;)V
+  #414 = Utf8               setEventManager
+  #415 = Utf8               (Lcom/xianling/stage/model/core/element/IElementEventManager;)V
+  #416 = Utf8               (Lcom/xianling/stage/model/element/monster/IPet;Lcom/xianling/stage/model/core/element/impl/hatred/IHatredRule;)V
+  #417 = Utf8               setHatredManager
+  #418 = Utf8               (Lcom/xianling/stage/model/core/element/IHatredManager;)V
+  #419 = Utf8               iterator
+  #420 = Utf8               ()Ljava/util/Iterator;
+  #421 = Utf8               hasNext
+  #422 = Utf8               ()Z
+  #423 = Utf8               next
+  #424 = Utf8               ()Ljava/lang/Object;
+  #425 = Utf8               com/xianling/stage/utils/ComponentUtil
+  #426 = Utf8               com/xianling/bus/skill/configure/export/ISkillConfigExportService
+  #427 = Utf8               loadSkillByLevel
+  #428 = Utf8               (Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+  #429 = Utf8               com/xianling/bus/skill/configure/export/impl/SkillConfig
+  #430 = Utf8               getSkillId
+  #431 = Utf8               com/xianling/stage/model/core/element/impl/skill/SkillFactory
+  #432 = Utf8               create
+  #433 = Utf8               (Ljava/lang/String;)Lcom/xianling/stage/model/core/element/ISkill;
+  #434 = Utf8               getSkillManager
+  #435 = Utf8               ()Lcom/xianling/stage/model/core/element/ISkillManager;
+  #436 = Utf8               com/xianling/stage/model/core/element/ISkillManager
+  #437 = Utf8               addSkill
+  #438 = Utf8               (Lcom/xianling/stage/model/core/element/ISkill;)V
+  #439 = Utf8               getId
+  #440 = Utf8               com/xianling/bus/skillbook/export/ISkillBookExportService
+  #441 = Utf8               getSkillBooks
+  #442 = Utf8               (Ljava/lang/String;)Ljava/util/List;
+  #443 = Utf8               size
+  #444 = Utf8               loadById
+  #445 = Utf8               (Ljava/lang/String;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+  #446 = Utf8               com/xianling/gamerule/skill/SkillType
+  #447 = Utf8               ACTIVE
+  #448 = Utf8               Lcom/xianling/gamerule/skill/SkillType;
+  #449 = Utf8               getSkillType
+  #450 = Utf8               ()Lcom/xianling/gamerule/skill/SkillType;
+  #451 = Utf8               equals
+  #452 = Utf8               (Ljava/lang/Object;)Z
+  #453 = Utf8               getErduantiaoSkillId
+  #454 = Utf8               setAi
+  #455 = Utf8               (Lcom/xianling/stage/model/element/monster/IAi;)V
+{
+  private static com.xianling.stage.configure.export.IZuoqiReviveConfigExportService zuoQiReviveConfigExportService;
+    descriptor: Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;
+    flags: ACC_PRIVATE, ACC_STATIC
+
+  private static com.xianling.bus.meiren.configure.export.IMeiRenConfigExportService meiRenConfigExportService;
+    descriptor: Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;
+    flags: ACC_PRIVATE, ACC_STATIC
+
+  private static com.xianling.stage.configure.export.IMeirenReviveConfigExportService meiRenReviveConfigExportService;
+    descriptor: Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;
+    flags: ACC_PRIVATE, ACC_STATIC
+
+  private static com.xianling.bus.skillbook.export.ISkillBookExportService skillBookExportService;
+    descriptor: Lcom/xianling/bus/skillbook/export/ISkillBookExportService;
+    flags: ACC_PRIVATE, ACC_STATIC
+
+  private static com.xianling.bus.skill.configure.export.ISkillConfigExportService skillConfigExportService;
+    descriptor: Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+    flags: ACC_PRIVATE, ACC_STATIC
+
+  private static com.xianling.bus.pet.configure.export.IChongWuBiaoConfigExportConfigService chongWuBiaoConfigExportConfigService;
+    descriptor: Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;
+    flags: ACC_PRIVATE, ACC_STATIC
+
+  public com.xianling.stage.model.element.monster.PetFactory();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 36: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/xianling/stage/model/element/monster/PetFactory;
+
+  public void setMeiRenConfigExportService(com.xianling.bus.meiren.configure.export.IMeiRenConfigExportService);
+    descriptor: (Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #2                  // Field meiRenConfigExportService:Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;
+         4: return
+      LineNumberTable:
+        line 48: 0
+        line 49: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/xianling/stage/model/element/monster/PetFactory;
+            0       5     1 meiRenConfigExportService   Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;
+    RuntimeVisibleAnnotations:
+      0: #128()
+
+  public void setZuoQiReviveConfigExportService(com.xianling.stage.configure.export.IZuoqiReviveConfigExportService);
+    descriptor: (Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #3                  // Field zuoQiReviveConfigExportService:Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;
+         4: return
+      LineNumberTable:
+        line 52: 0
+        line 53: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/xianling/stage/model/element/monster/PetFactory;
+            0       5     1 zuoQiReviveConfigExportService   Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;
+    RuntimeVisibleAnnotations:
+      0: #128()
+
+  public void setMeiRenReviveConfigExportService(com.xianling.stage.configure.export.IMeirenReviveConfigExportService);
+    descriptor: (Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #4                  // Field meiRenReviveConfigExportService:Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;
+         4: return
+      LineNumberTable:
+        line 56: 0
+        line 57: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/xianling/stage/model/element/monster/PetFactory;
+            0       5     1 meiRenReviveConfigExportService   Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;
+    RuntimeVisibleAnnotations:
+      0: #128()
+
+  public void setSkillBookExportService(com.xianling.bus.skillbook.export.ISkillBookExportService);
+    descriptor: (Lcom/xianling/bus/skillbook/export/ISkillBookExportService;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #5                  // Field skillBookExportService:Lcom/xianling/bus/skillbook/export/ISkillBookExportService;
+         4: return
+      LineNumberTable:
+        line 61: 0
+        line 62: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/xianling/stage/model/element/monster/PetFactory;
+            0       5     1 skillBookExportService   Lcom/xianling/bus/skillbook/export/ISkillBookExportService;
+    RuntimeVisibleAnnotations:
+      0: #128()
+
+  public void setSkillConfigExportService(com.xianling.bus.skill.configure.export.ISkillConfigExportService);
+    descriptor: (Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #6                  // Field skillConfigExportService:Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+         4: return
+      LineNumberTable:
+        line 65: 0
+        line 66: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/xianling/stage/model/element/monster/PetFactory;
+            0       5     1 skillConfigExportService   Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+    RuntimeVisibleAnnotations:
+      0: #128()
+
+  public void setChongWuBiaoConfigExportConfigService(com.xianling.bus.pet.configure.export.IChongWuBiaoConfigExportConfigService);
+    descriptor: (Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_1
+         1: putstatic     #7                  // Field chongWuBiaoConfigExportConfigService:Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;
+         4: return
+      LineNumberTable:
+        line 69: 0
+        line 70: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/xianling/stage/model/element/monster/PetFactory;
+            0       5     1 chongWuBiaoConfigExportConfigService   Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;
+    RuntimeVisibleAnnotations:
+      0: #128()
+
+  public static com.xianling.stage.model.element.monster.Pet createMeiren(java.lang.String, com.xianling.stage.model.element.role.IRole, java.lang.String, int);
+    descriptor: (Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;I)Lcom/xianling/stage/model/element/monster/Pet;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=7, locals=7, args_size=4
+         0: getstatic     #2                  // Field meiRenConfigExportService:Lcom/xianling/bus/meiren/configure/export/IMeiRenConfigExportService;
+         3: aload_2
+         4: iload_3
+         5: invokestatic  #8                  // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+         8: invokeinterface #9,  3            // InterfaceMethod com/xianling/bus/meiren/configure/export/IMeiRenConfigExportService.getMeiRenConfigByMeiRenId:(Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/meiren/configure/export/impl/MeiRenConfig;
+        13: astore        4
+        15: new           #10                 // class com/xianling/stage/model/element/monster/MeirenPet
+        18: dup
+        19: aload_0
+        20: aload         4
+        22: invokevirtual #11                 // Method com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getName:()Ljava/lang/String;
+        25: aload_1
+        26: aload_1
+        27: invokeinterface #12,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getCamp:()Ljava/lang/String;
+        32: aload         4
+        34: invokevirtual #13                 // Method com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getMeirenTypeId:()Ljava/lang/String;
+        37: invokespecial #14                 // Method com/xianling/stage/model/element/monster/MeirenPet."<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;)V
+        40: astore        5
+        42: aconst_null
+        43: aload         5
+        45: iload_3
+        46: aload         4
+        48: invokevirtual #15                 // Method com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getSkillList:()Ljava/util/List;
+        51: iconst_1
+        52: invokestatic  #16                 // Method _create:(Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List;I)Lcom/xianling/stage/model/element/monster/Pet;
+        55: pop
+        56: aload         5
+        58: invokestatic  #17                 // Method com/xianling/stage/model/element/monster/PetFactoryHelper.replaceMeirenLevelAttribute:(Lcom/xianling/stage/model/element/monster/IPet;)V
+        61: aload         5
+        63: getstatic     #4                  // Field meiRenReviveConfigExportService:Lcom/xianling/stage/configure/export/IMeirenReviveConfigExportService;
+        66: invokeinterface #18,  1           // InterfaceMethod com/xianling/stage/configure/export/IMeirenReviveConfigExportService.loadConfig:()Lcom/xianling/stage/configure/export/impl/MeirenReviveConfig;
+        71: invokevirtual #19                 // Method com/xianling/stage/configure/export/impl/MeirenReviveConfig.getRecoveryInterval:()I
+        74: invokevirtual #20                 // Method com/xianling/stage/model/element/monster/Pet.setHpInterVal:(I)V
+        77: aload_1
+        78: invokeinterface #21,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getBusinessData:()Lcom/xianling/stage/model/element/role/RoleBusinessData;
+        83: invokevirtual #22                 // Method com/xianling/stage/model/element/role/RoleBusinessData.getMeirenData:()Lcom/xianling/stage/model/element/role/business/MeirenBusinessData;
+        86: astore        6
+        88: aload         6
+        90: invokevirtual #23                 // Method com/xianling/stage/model/element/role/business/MeirenBusinessData.getCurMeirenType:()Ljava/lang/String;
+        93: ifnonnull     109
+        96: aload         5
+        98: invokevirtual #24                 // Method com/xianling/stage/model/element/monster/Pet.getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+       101: invokeinterface #25,  1           // InterfaceMethod com/xianling/stage/model/core/element/IFightAttribute.resetHpMp:()V
+       106: goto          149
+       109: aload         6
+       111: invokevirtual #26                 // Method com/xianling/stage/model/element/role/business/MeirenBusinessData.getCurHp:()Ljava/lang/Integer;
+       114: ifnonnull     130
+       117: aload         6
+       119: aload         4
+       121: invokevirtual #27                 // Method com/xianling/bus/meiren/configure/export/impl/MeiRenConfig.getMaxHp:()I
+       124: invokestatic  #8                  // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+       127: invokevirtual #28                 // Method com/xianling/stage/model/element/role/business/MeirenBusinessData.setCurHp:(Ljava/lang/Integer;)V
+       130: aload         5
+       132: invokevirtual #24                 // Method com/xianling/stage/model/element/monster/Pet.getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+       135: aload         6
+       137: invokevirtual #26                 // Method com/xianling/stage/model/element/role/business/MeirenBusinessData.getCurHp:()Ljava/lang/Integer;
+       140: invokevirtual #29                 // Method java/lang/Integer.intValue:()I
+       143: i2f
+       144: invokeinterface #30,  2           // InterfaceMethod com/xianling/stage/model/core/element/IFightAttribute.setCurHp:(F)V
+       149: aload         5
+       151: areturn
+      LineNumberTable:
+        line 76: 0
+        line 78: 15
+        line 81: 42
+        line 83: 56
+        line 85: 61
+        line 87: 77
+        line 88: 88
+        line 89: 96
+        line 91: 109
+        line 92: 117
+        line 94: 130
+        line 98: 149
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     152     0    id   Ljava/lang/String;
+            0     152     1 owner   Lcom/xianling/stage/model/element/role/IRole;
+            0     152     2 meirenTypeId   Ljava/lang/String;
+            0     152     3 meirenLevel   I
+           15     137     4 meirenConfig   Lcom/xianling/bus/meiren/configure/export/impl/MeiRenConfig;
+           42     110     5 monster   Lcom/xianling/stage/model/element/monster/Pet;
+           88      64     6 meirenData   Lcom/xianling/stage/model/element/role/business/MeirenBusinessData;
+      StackMapTable: number_of_entries = 3
+        frame_type = 254 /* append */
+          offset_delta = 109
+          locals = [ class com/xianling/bus/meiren/configure/export/impl/MeiRenConfig, class com/xianling/stage/model/element/monster/Pet, class com/xianling/stage/model/element/role/business/MeirenBusinessData ]
+        frame_type = 20 /* same */
+        frame_type = 18 /* same */
+
+  public static com.xianling.stage.model.element.monster.ZuoQiPet createZuoQiPet(com.xianling.stage.model.element.role.IRole, java.lang.String, com.xianling.stage.model.element.role.IRole, com.xianling.bus.zuoqi.configure.export.impl.ZuoQiConfig, int);
+    descriptor: (Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig;I)Lcom/xianling/stage/model/element/monster/ZuoQiPet;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=7, locals=7, args_size=5
+         0: new           #31                 // class com/xianling/stage/model/element/monster/ZuoQiPet
+         3: dup
+         4: aload_1
+         5: aload_3
+         6: invokevirtual #32                 // Method com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig.getName:()Ljava/lang/String;
+         9: aload_2
+        10: aload_2
+        11: invokeinterface #12,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getCamp:()Ljava/lang/String;
+        16: aload_3
+        17: invokevirtual #33                 // Method com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig.getRank:()I
+        20: invokespecial #34                 // Method com/xianling/stage/model/element/monster/ZuoQiPet."<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;I)V
+        23: astore        5
+        25: aload_3
+        26: iload         4
+        28: invokevirtual #35                 // Method com/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig.getLevelConfigByLevel:(I)Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig;
+        31: astore        6
+        33: aload_0
+        34: aload         5
+        36: iload         4
+        38: aload         6
+        40: invokevirtual #36                 // Method com/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig.getSkillList:()Ljava/util/List;
+        43: iconst_1
+        44: invokestatic  #16                 // Method _create:(Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List;I)Lcom/xianling/stage/model/element/monster/Pet;
+        47: pop
+        48: aload         5
+        50: invokestatic  #37                 // Method com/xianling/stage/model/element/monster/PetFactoryHelper.replaceZuoqiLevelAttribute:(Lcom/xianling/stage/model/element/monster/ZuoQiPet;)V
+        53: aload         5
+        55: getstatic     #3                  // Field zuoQiReviveConfigExportService:Lcom/xianling/stage/configure/export/IZuoqiReviveConfigExportService;
+        58: invokeinterface #38,  1           // InterfaceMethod com/xianling/stage/configure/export/IZuoqiReviveConfigExportService.loadConfig:()Lcom/xianling/stage/configure/export/impl/ZuoQiReviveConfig;
+        63: invokevirtual #39                 // Method com/xianling/stage/configure/export/impl/ZuoQiReviveConfig.getRecoveryInterval:()I
+        66: invokevirtual #40                 // Method com/xianling/stage/model/element/monster/ZuoQiPet.setHpInterVal:(I)V
+        69: aload         5
+        71: invokevirtual #41                 // Method com/xianling/stage/model/element/monster/ZuoQiPet.getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+        74: aload_2
+        75: invokeinterface #21,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getBusinessData:()Lcom/xianling/stage/model/element/role/RoleBusinessData;
+        80: invokevirtual #42                 // Method com/xianling/stage/model/element/role/RoleBusinessData.getZuoQiBussinessData:()Lcom/xianling/stage/model/element/role/business/ZuoQiBussinessData;
+        83: invokevirtual #43                 // Method com/xianling/stage/model/element/role/business/ZuoQiBussinessData.getCurHp:()I
+        86: i2f
+        87: invokeinterface #30,  2           // InterfaceMethod com/xianling/stage/model/core/element/IFightAttribute.setCurHp:(F)V
+        92: aload         5
+        94: areturn
+      LineNumberTable:
+        line 110: 0
+        line 112: 25
+        line 114: 33
+        line 116: 48
+        line 118: 53
+        line 119: 69
+        line 122: 92
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      95     0  role   Lcom/xianling/stage/model/element/role/IRole;
+            0      95     1    id   Ljava/lang/String;
+            0      95     2 owner   Lcom/xianling/stage/model/element/role/IRole;
+            0      95     3 zuoqiConfig   Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiConfig;
+            0      95     4 zuoqiLevel   I
+           25      70     5 monster   Lcom/xianling/stage/model/element/monster/ZuoQiPet;
+           33      62     6 levelConfig   Lcom/xianling/bus/zuoqi/configure/export/impl/ZuoQiLevelConfig;
+
+  public static com.xianling.stage.model.element.monster.BaoBaoPet createBaoBaoPei(java.lang.String, com.xianling.stage.model.element.role.IRole, java.lang.String, int, int, float);
+    descriptor: (Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;IIF)Lcom/xianling/stage/model/element/monster/BaoBaoPet;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=10, locals=8, args_size=6
+         0: new           #44                 // class com/xianling/stage/model/element/monster/BaoBaoPet
+         3: dup
+         4: aload_0
+         5: aload_1
+         6: invokeinterface #45,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getName:()Ljava/lang/String;
+        11: aload_1
+        12: aload_1
+        13: invokeinterface #12,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getCamp:()Ljava/lang/String;
+        18: aload_2
+        19: iload_3
+        20: iload         4
+        22: fload         5
+        24: invokespecial #46                 // Method com/xianling/stage/model/element/monster/BaoBaoPet."<init>":(Ljava/lang/String;Ljava/lang/String;Lcom/xianling/stage/model/element/role/IRole;Ljava/lang/String;Ljava/lang/String;IIF)V
+        27: astore        6
+        29: getstatic     #7                  // Field chongWuBiaoConfigExportConfigService:Lcom/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService;
+        32: aload_2
+        33: iload         4
+        35: invokeinterface #47,  3           // InterfaceMethod com/xianling/bus/pet/configure/export/IChongWuBiaoConfigExportConfigService.load:(Ljava/lang/String;I)Lcom/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig;
+        40: astore        7
+        42: aload_1
+        43: aload         6
+        45: aload         6
+        47: invokevirtual #48                 // Method com/xianling/stage/model/element/monster/BaoBaoPet.getLevel:()I
+        50: aload         7
+        52: invokevirtual #49                 // Method com/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig.getSkillids:()Ljava/util/List;
+        55: aload         7
+        57: invokevirtual #50                 // Method com/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig.getJieshu:()I
+        60: invokestatic  #16                 // Method _create:(Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List;I)Lcom/xianling/stage/model/element/monster/Pet;
+        63: pop
+        64: aload         6
+        66: invokestatic  #51                 // Method com/xianling/stage/model/element/monster/PetFactoryHelper.replaceBaoBaoAttribute:(Lcom/xianling/stage/model/element/monster/BaoBaoPet;)V
+        69: aload         6
+        71: areturn
+      LineNumberTable:
+        line 132: 0
+        line 133: 29
+        line 134: 42
+        line 135: 64
+        line 136: 69
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      72     0    id   Ljava/lang/String;
+            0      72     1 owner   Lcom/xianling/stage/model/element/role/IRole;
+            0      72     2 petId   Ljava/lang/String;
+            0      72     3 petLevel   I
+            0      72     4 petRank   I
+            0      72     5 shanghai   F
+           29      43     6 baoBaoPet   Lcom/xianling/stage/model/element/monster/BaoBaoPet;
+           42      30     7 chongWuBiaoConfig   Lcom/xianling/bus/pet/configure/export/impl/ChongWuBiaoConfig;
+
+  private static com.xianling.stage.model.element.monster.Pet _create(com.xianling.stage.model.element.role.IRole, com.xianling.stage.model.element.monster.Pet, int, java.util.List<java.lang.String>, int);
+    descriptor: (Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List;I)Lcom/xianling/stage/model/element/monster/Pet;
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=7, locals=11, args_size=5
+         0: aload_1
+         1: iload_2
+         2: invokevirtual #52                 // Method com/xianling/stage/model/element/monster/Pet.setLevel:(I)V
+         5: aload_1
+         6: new           #53                 // class com/xianling/stage/model/core/element/impl/state/StateManager
+         9: dup
+        10: invokespecial #54                 // Method com/xianling/stage/model/core/element/impl/state/StateManager."<init>":()V
+        13: invokevirtual #55                 // Method com/xianling/stage/model/element/monster/Pet.setStateManager:(Lcom/xianling/stage/model/core/element/IStateManager;)V
+        16: new           #56                 // class com/xianling/stage/model/element/role/PetFightAttribute
+        19: dup
+        20: invokestatic  #57                 // Method com/xianling/stage/model/core/attribute/impl/AttributeFormulaSearcherFactory.getFormulaSearcher:()Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;
+        23: invokespecial #58                 // Method com/xianling/stage/model/element/role/PetFightAttribute."<init>":(Lcom/xianling/stage/model/core/element/impl/attribute/AttributeFormulaSearcher;)V
+        26: astore        5
+        28: aload         5
+        30: aload_1
+        31: invokevirtual #59                 // Method com/xianling/stage/model/element/monster/Pet.getOwner:()Lcom/xianling/stage/model/element/role/IRole;
+        34: invokeinterface #60,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getFightAttribute:()Lcom/xianling/stage/model/core/element/IFightAttribute;
+        39: invokevirtual #61                 // Method com/xianling/stage/model/element/role/PetFightAttribute.setRoleFightAttribute:(Lcom/xianling/stage/model/core/element/IFightAttribute;)V
+        42: aload_1
+        43: aload         5
+        45: invokevirtual #62                 // Method com/xianling/stage/model/element/monster/Pet.setFightAttribute:(Lcom/xianling/stage/model/core/element/IFightAttribute;)V
+        48: aload_1
+        49: new           #63                 // class com/xianling/stage/model/element/impl/buff/BuffManager
+        52: dup
+        53: aload_1
+        54: invokespecial #64                 // Method com/xianling/stage/model/element/impl/buff/BuffManager."<init>":(Lcom/xianling/stage/model/core/element/IFighter;)V
+        57: invokevirtual #65                 // Method com/xianling/stage/model/element/monster/Pet.setBuffManager:(Lcom/xianling/stage/model/core/element/IBuffManager;)V
+        60: aload_1
+        61: new           #66                 // class com/xianling/stage/schedule/StageScheduleManager
+        64: dup
+        65: invokespecial #67                 // Method com/xianling/stage/schedule/StageScheduleManager."<init>":()V
+        68: invokevirtual #68                 // Method com/xianling/stage/model/element/monster/Pet.setScheduleManager:(Lcom/xianling/stage/schedule/StageScheduleManager;)V
+        71: aload_1
+        72: new           #69                 // class com/xianling/stage/model/core/element/impl/skill/SkillManager
+        75: dup
+        76: aload_1
+        77: invokespecial #70                 // Method com/xianling/stage/model/core/element/impl/skill/SkillManager."<init>":(Lcom/xianling/stage/model/core/element/IFighter;)V
+        80: invokevirtual #71                 // Method com/xianling/stage/model/element/monster/Pet.setSkillManager:(Lcom/xianling/stage/model/core/element/ISkillManager;)V
+        83: aload_1
+        84: new           #72                 // class com/xianling/stage/model/element/monster/PetEventManager
+        87: dup
+        88: aload_1
+        89: invokespecial #73                 // Method com/xianling/stage/model/element/monster/PetEventManager."<init>":(Lcom/xianling/stage/model/element/monster/IPet;)V
+        92: invokevirtual #74                 // Method com/xianling/stage/model/element/monster/Pet.setEventManager:(Lcom/xianling/stage/model/core/element/IElementEventManager;)V
+        95: aload_1
+        96: new           #75                 // class com/xianling/stage/model/fight/hatred/PetHatredManager
+        99: dup
+       100: aload_1
+       101: new           #76                 // class com/xianling/stage/model/fight/hatred/PetHatredRule
+       104: dup
+       105: aload_1
+       106: invokespecial #77                 // Method com/xianling/stage/model/fight/hatred/PetHatredRule."<init>":(Lcom/xianling/stage/model/element/monster/IPet;)V
+       109: invokespecial #78                 // Method com/xianling/stage/model/fight/hatred/PetHatredManager."<init>":(Lcom/xianling/stage/model/element/monster/IPet;Lcom/xianling/stage/model/core/element/impl/hatred/IHatredRule;)V
+       112: invokevirtual #79                 // Method com/xianling/stage/model/element/monster/Pet.setHatredManager:(Lcom/xianling/stage/model/core/element/IHatredManager;)V
+       115: aload_3
+       116: ifnull        190
+       119: aload_3
+       120: invokeinterface #80,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+       125: astore        6
+       127: aload         6
+       129: invokeinterface #81,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+       134: ifeq          190
+       137: aload         6
+       139: invokeinterface #82,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+       144: checkcast     #83                 // class java/lang/String
+       147: astore        7
+       149: getstatic     #84                 // Field com/xianling/stage/utils/ComponentUtil.skillConfigExportService:Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+       152: aload         7
+       154: iload         4
+       156: invokestatic  #8                  // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+       159: invokeinterface #85,  3           // InterfaceMethod com/xianling/bus/skill/configure/export/ISkillConfigExportService.loadSkillByLevel:(Ljava/lang/String;Ljava/lang/Integer;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+       164: astore        8
+       166: aload         8
+       168: invokevirtual #86                 // Method com/xianling/bus/skill/configure/export/impl/SkillConfig.getSkillId:()Ljava/lang/String;
+       171: invokestatic  #87                 // Method com/xianling/stage/model/core/element/impl/skill/SkillFactory.create:(Ljava/lang/String;)Lcom/xianling/stage/model/core/element/ISkill;
+       174: astore        9
+       176: aload_1
+       177: invokevirtual #88                 // Method com/xianling/stage/model/element/monster/Pet.getSkillManager:()Lcom/xianling/stage/model/core/element/ISkillManager;
+       180: aload         9
+       182: invokeinterface #89,  2           // InterfaceMethod com/xianling/stage/model/core/element/ISkillManager.addSkill:(Lcom/xianling/stage/model/core/element/ISkill;)V
+       187: goto          127
+       190: aload_1
+       191: instanceof    #31                 // class com/xianling/stage/model/element/monster/ZuoQiPet
+       194: ifeq          331
+       197: getstatic     #5                  // Field skillBookExportService:Lcom/xianling/bus/skillbook/export/ISkillBookExportService;
+       200: aload_0
+       201: invokeinterface #90,  1           // InterfaceMethod com/xianling/stage/model/element/role/IRole.getId:()Ljava/lang/String;
+       206: invokeinterface #91,  2           // InterfaceMethod com/xianling/bus/skillbook/export/ISkillBookExportService.getSkillBooks:(Ljava/lang/String;)Ljava/util/List;
+       211: astore        6
+       213: aload         6
+       215: ifnull        331
+       218: aload         6
+       220: invokeinterface #92,  1           // InterfaceMethod java/util/List.size:()I
+       225: ifeq          331
+       228: aload         6
+       230: invokeinterface #80,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+       235: astore        7
+       237: aload         7
+       239: invokeinterface #81,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+       244: ifeq          331
+       247: aload         7
+       249: invokeinterface #82,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+       254: checkcast     #93                 // class com/xianling/bus/skillbook/export/SkillBookWrapper
+       257: astore        8
+       259: getstatic     #6                  // Field skillConfigExportService:Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+       262: aload         8
+       264: invokevirtual #94                 // Method com/xianling/bus/skillbook/export/SkillBookWrapper.getSkillId:()Ljava/lang/String;
+       267: invokeinterface #95,  2           // InterfaceMethod com/xianling/bus/skill/configure/export/ISkillConfigExportService.loadById:(Ljava/lang/String;)Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+       272: astore        9
+       274: getstatic     #96                 // Field com/xianling/gamerule/skill/SkillType.ACTIVE:Lcom/xianling/gamerule/skill/SkillType;
+       277: aload         9
+       279: invokevirtual #97                 // Method com/xianling/bus/skill/configure/export/impl/SkillConfig.getSkillType:()Lcom/xianling/gamerule/skill/SkillType;
+       282: invokevirtual #98                 // Method com/xianling/gamerule/skill/SkillType.equals:(Ljava/lang/Object;)Z
+       285: ifeq          328
+       288: getstatic     #6                  // Field skillConfigExportService:Lcom/xianling/bus/skill/configure/export/ISkillConfigExportService;
+       291: invokeinterface #99,  1           // InterfaceMethod com/xianling/bus/skill/configure/export/ISkillConfigExportService.getErduantiaoSkillId:()Ljava/lang/String;
+       296: aload         9
+       298: invokevirtual #86                 // Method com/xianling/bus/skill/configure/export/impl/SkillConfig.getSkillId:()Ljava/lang/String;
+       301: invokevirtual #100                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       304: ifne          328
+       307: aload         9
+       309: invokevirtual #86                 // Method com/xianling/bus/skill/configure/export/impl/SkillConfig.getSkillId:()Ljava/lang/String;
+       312: invokestatic  #87                 // Method com/xianling/stage/model/core/element/impl/skill/SkillFactory.create:(Ljava/lang/String;)Lcom/xianling/stage/model/core/element/ISkill;
+       315: astore        10
+       317: aload_1
+       318: invokevirtual #88                 // Method com/xianling/stage/model/element/monster/Pet.getSkillManager:()Lcom/xianling/stage/model/core/element/ISkillManager;
+       321: aload         10
+       323: invokeinterface #89,  2           // InterfaceMethod com/xianling/stage/model/core/element/ISkillManager.addSkill:(Lcom/xianling/stage/model/core/element/ISkill;)V
+       328: goto          237
+       331: aload_1
+       332: new           #66                 // class com/xianling/stage/schedule/StageScheduleManager
+       335: dup
+       336: invokespecial #67                 // Method com/xianling/stage/schedule/StageScheduleManager."<init>":()V
+       339: invokevirtual #68                 // Method com/xianling/stage/model/element/monster/Pet.setScheduleManager:(Lcom/xianling/stage/schedule/StageScheduleManager;)V
+       342: aload_1
+       343: new           #101                // class com/xianling/stage/model/element/monster/DefaultPetAi
+       346: dup
+       347: aload_1
+       348: invokespecial #102                // Method com/xianling/stage/model/element/monster/DefaultPetAi."<init>":(Lcom/xianling/stage/model/element/monster/IPet;)V
+       351: invokevirtual #103                // Method com/xianling/stage/model/element/monster/Pet.setAi:(Lcom/xianling/stage/model/element/monster/IAi;)V
+       354: aload_1
+       355: areturn
+      LineNumberTable:
+        line 145: 0
+        line 147: 5
+        line 151: 16
+        line 152: 28
+        line 153: 42
+        line 155: 48
+        line 156: 60
+        line 157: 71
+        line 158: 83
+        line 159: 95
+        line 164: 115
+        line 165: 119
+        line 166: 149
+        line 167: 166
+        line 168: 176
+        line 169: 187
+        line 173: 190
+        line 174: 197
+        line 175: 213
+        line 177: 228
+        line 178: 259
+        line 180: 274
+        line 181: 307
+        line 182: 317
+        line 184: 328
+        line 190: 331
+        line 192: 342
+        line 194: 354
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+          166      21     8 skillConfig   Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+          176      11     9 skill   Lcom/xianling/stage/model/core/element/ISkill;
+          149      38     7 skillCategory   Ljava/lang/String;
+          127      63     6    i$   Ljava/util/Iterator;
+          317      11    10 skill   Lcom/xianling/stage/model/core/element/ISkill;
+          274      54     9 skillConfig   Lcom/xianling/bus/skill/configure/export/impl/SkillConfig;
+          259      69     8 skillBookWrapper   Lcom/xianling/bus/skillbook/export/SkillBookWrapper;
+          237      94     7    i$   Ljava/util/Iterator;
+          213     118     6 skillBookWrappers   Ljava/util/List;
+            0     356     0  role   Lcom/xianling/stage/model/element/role/IRole;
+            0     356     1 monster   Lcom/xianling/stage/model/element/monster/Pet;
+            0     356     2 petLevel   I
+            0     356     3 skillList   Ljava/util/List;
+            0     356     4 skilllevel   I
+           28     328     5 petFightAttribute   Lcom/xianling/stage/model/element/role/PetFightAttribute;
+      LocalVariableTypeTable:
+        Start  Length  Slot  Name   Signature
+          213     118     6 skillBookWrappers   Ljava/util/List<Lcom/xianling/bus/skillbook/export/SkillBookWrapper;>;
+            0     356     3 skillList   Ljava/util/List<Ljava/lang/String;>;
+      StackMapTable: number_of_entries = 5
+        frame_type = 253 /* append */
+          offset_delta = 127
+          locals = [ class com/xianling/stage/model/element/role/PetFightAttribute, class java/util/Iterator ]
+        frame_type = 250 /* chop */
+          offset_delta = 62
+        frame_type = 253 /* append */
+          offset_delta = 46
+          locals = [ class java/util/List, class java/util/Iterator ]
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 90
+        frame_type = 249 /* chop */
+          offset_delta = 2
+    Signature: #202                         // (Lcom/xianling/stage/model/element/role/IRole;Lcom/xianling/stage/model/element/monster/Pet;ILjava/util/List<Ljava/lang/String;>;I)Lcom/xianling/stage/model/element/monster/Pet;
+}
+SourceFile: "PetFactory.java"
+RuntimeVisibleAnnotations:
+  0: #205()

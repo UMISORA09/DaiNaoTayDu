@@ -1,0 +1,3 @@
+Set objShell = CreateObject("Shell.Application")
+strCommand = "/c ""echo 127.0.0.1 geo2.adobe.com>>%windir%\System32\drivers\etc\hosts & echo 127.0.0.1 flash.2144.com>>%windir%\System32\drivers\etc\hosts & echo 127.0.0.1 www.2144.cn>>%windir%\System32\drivers\etc\hosts & echo 127.0.0.1 macromedia.com>>%windir%\System32\drivers\etc\hosts & echo 127.0.0.1 flash.cn>>%windir%\System32\drivers\etc\hosts & echo 127.0.0.1 api.flash.cn>>%windir%\System32\drivers\etc\hosts & ipconfig /flushdns & taskkill /f /im FlashCenter.exe & msg * Da sua xong loi Flash! Ban co the mo lai trinh duyet va vao game."""
+objShell.ShellExecute "cmd.exe", strCommand, "", "runas", 1
