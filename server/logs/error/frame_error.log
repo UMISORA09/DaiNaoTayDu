@@ -39325,3 +39325,790 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown co
 2026-10-07 16:48:57 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
 2026-10-07 16:49:12 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
 2026-10-07 16:49:27 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:44:11 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RoleMarry
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCacheFromDb(AbsCacheDao.java:36) ~[dntg_start.jar:?]
+	at com.xianling.bus.marry.dao.cache.MarryCacheModelLoader.load(MarryCacheModelLoader.java:21) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$3618233a.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRoleMarry-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+2026-10-09 10:44:11 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RolePet
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCachesFromDb(AbsCacheDao.java:55) ~[dntg_start.jar:?]
+	at com.xianling.bus.pet.dao.cache.PetCacheModelLoader.load(PetCacheModelLoader.java:26) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$3618233a.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRolePet-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+2026-10-09 10:44:11 [frame_logger]-[ERROR]-[pool-27-thread-1] eventType:role_login,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:44:57 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:46:42 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:46:42 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:47:30 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:35 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:50 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:48:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:49:05 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:49:20 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:49:35 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:49:50 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:49:58 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:49:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:00 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:01 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:02 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:04 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:05 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:05 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:06 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:07 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:09 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:10 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:11 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:13 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:14 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:15 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:16 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:20 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:50:35 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:51 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:shenjiangjindi_enter,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:51 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:shenjiangjindi_enter,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:54 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:54 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:55 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:55 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:56 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:56 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:57 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:57 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:57 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:57 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:59 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:51:59 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:02 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:02 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:02 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:02 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:02 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:02 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:03 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:03 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:06 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:06 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:06 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:06 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:08 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:08 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:11 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:11 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:11 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:11 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:11 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:11 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:15 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:15 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:16 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:16 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:16 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:16 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:20 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:20 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:23 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:23 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:26 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:27 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:shenjiangjindi_enter,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:52:27 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:shenjiangjindi_enter,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:15 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:30 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:45 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:54 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:55 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:56 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:57 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:58 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:53:59 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:00 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:00 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:02 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:03 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:05 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:06 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:07 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:08 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:09 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:11 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:13 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:14 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:15 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:16 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:29 [frame_logger]-[ERROR]-[pool-33-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:30 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:54:45 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:55:01 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:55:16 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:55:31 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:55:46 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:56:01 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:56:16 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:56:31 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:56:46 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:57:01 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 10:57:16 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:00:37 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RoleMarry
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCacheFromDb(AbsCacheDao.java:36) ~[dntg_start.jar:?]
+	at com.xianling.bus.marry.dao.cache.MarryCacheModelLoader.load(MarryCacheModelLoader.java:21) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$3618233a.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRoleMarry-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+2026-10-09 11:00:37 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RolePet
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCachesFromDb(AbsCacheDao.java:55) ~[dntg_start.jar:?]
+	at com.xianling.bus.pet.dao.cache.PetCacheModelLoader.load(PetCacheModelLoader.java:26) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$3618233a.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRolePet-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+2026-10-09 11:00:37 [frame_logger]-[ERROR]-[pool-27-thread-1] eventType:role_login,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:01:46 [frame_logger]-[ERROR]-[pool-47-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:01:46 [frame_logger]-[ERROR]-[pool-47-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:03:58 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:03:58 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:04:44 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:04:59 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:05:14 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:05:29 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:05:45 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:06:00 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:06:15 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:06:30 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:06:45 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:07:00 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:07:15 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:07:30 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:07:45 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:08:00 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:08:15 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-09 11:08:25 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RoleMarry
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCacheFromDb(AbsCacheDao.java:36) ~[dntg_start.jar:?]
+	at com.xianling.bus.marry.dao.cache.MarryCacheModelLoader.load(MarryCacheModelLoader.java:21) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$3618233a.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRoleMarry-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+2026-10-09 11:08:25 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RolePet
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCachesFromDb(AbsCacheDao.java:55) ~[dntg_start.jar:?]
+	at com.xianling.bus.pet.dao.cache.PetCacheModelLoader.load(PetCacheModelLoader.java:26) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$3618233a.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRolePet-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 35 more
+2026-10-09 11:08:25 [frame_logger]-[ERROR]-[pool-27-thread-1] eventType:role_login,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:31:18 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RoleMarry
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCacheFromDb(AbsCacheDao.java:36) ~[dntg_start.jar:?]
+	at com.xianling.bus.marry.dao.cache.MarryCacheModelLoader.load(MarryCacheModelLoader.java:21) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$8fa38f32.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRoleMarry-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'goods_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+2026-10-14 13:31:18 [frame_logger]-[ERROR]-[pool-27-thread-1] 
+com.kernel.data.accessor.exception.DataException: query multi error ! entity:RolePet
+	at com.kernel.data.accessor.exception.DataExceptionFactory.getException(DataExceptionFactory.java:12) ~[dntg_start.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:124) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsBaseDao.getRecords(AbsBaseDao.java:64) ~[dntg_start.jar:?]
+	at com.kernel.data.dao.AbsCacheDao.loadCachesFromDb(AbsCacheDao.java:55) ~[dntg_start.jar:?]
+	at com.xianling.bus.pet.dao.cache.PetCacheModelLoader.load(PetCacheModelLoader.java:26) ~[dntg_start.jar:?]
+	at com.kernel.data.cache.EntityCacheLoader.loadEntityCache(EntityCacheLoader.java:31) [dntg_start.jar:?]
+	at com.kernel.data.cache.CacheManager.activateRoleCache(CacheManager.java:105) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.service.impl.IoServiceImpl.roleIn(IoServiceImpl.java:39) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction.roleIn(BusInitAction.java:29) [dntg_start.jar:?]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$FastClassByCGLIB$$b679c270.invoke(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149) [cglib-nodep-2.1_3.jar:?]
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:692) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.sync.BusSyncAspect.sync(BusSyncAspect.java:39) [dntg_start.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:161) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:625) [org.springframework.aop-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.bus.client.io.easyaction.BusInitAction$$EnhancerByCGLIB$$8fa38f32.roleIn(<generated>) [cglib-nodep-2.1_3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at com.hehj.easyexecutor.resolver.DefaultResolver.execute(DefaultResolver.java:115) [easyexecutor-hehj.jar:?]
+	at com.hehj.easyexecutor.front.DefaultFrontend.execute(DefaultFrontend.java:21) [easyexecutor-hehj.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$RunnableImpl.run(EasyExecutorRunnablePool.java:112) [dntg_start.jar:?]
+	at com.kernel.pool.executor.EasyExecutorRunnablePool$StatisticRunnableImpl.run(EasyExecutorRunnablePool.java:82) [dntg_start.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the selectMultiRolePet-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:201) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'pet_rank_update_time' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeQuery(SqlExecutor.java:185) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteQuery(MappedStatement.java:221) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryWithCallback(MappedStatement.java:189) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeQueryForList(MappedStatement.java:139) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:567) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.queryForList(SqlMapExecutorDelegate.java:541) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.queryForList(SqlMapSessionImpl.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.queryForList(SqlMapClientImpl.java:94) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.accessor.database.ibatis.IbatisDatabaseAccessor.queryList(IbatisDatabaseAccessor.java:122) ~[dntg_start.jar:?]
+	... 36 more
+2026-10-14 13:31:18 [frame_logger]-[ERROR]-[pool-27-thread-1] eventType:role_login,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:31:43 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:31:43 [frame_logger]-[ERROR]-[pool-46-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:33:12 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:stage_monster_dead,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:33:12 [frame_logger]-[ERROR]-[pool-48-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:33:45 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:34:00 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:34:15 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null
+2026-10-14 13:34:30 [frame_logger]-[ERROR]-[pool-49-thread-1] eventType:role_increxp,handler:com.xianling.eventservice.model.IEventHandler handle error! null

@@ -1925,3 +1925,108 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\server\\GPHWEB\\P
 [Wed Oct 07 16:49:56 2026] [error] [client 127.0.0.1] File does not exist: D:/server/GPHWEB/wwwroot/res/tw/r/s/shengjiangjindi.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
 [Wed Oct 07 16:49:58 2026] [error] [client 127.0.0.1] File does not exist: D:/server/GPHWEB/wwwroot/res/tw/r/n/BOSS_qiankunmoshen.pak, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
 [Wed Oct 07 16:50:16 2026] [error] [client 127.0.0.1] File does not exist: D:/server/GPHWEB/wwwroot/res/tw/r/s/shenshoufan.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:42:21 2026] [warn] pid file D:/DNTC/GPHWEB/Apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Fri Oct 09 10:42:21 2026] [notice] Apache/2.2.13 (Win32) PHP/5.2.10 configured -- resuming normal operations
+[Fri Oct 09 10:42:21 2026] [notice] Server built: Aug  6 2009 15:50:50
+[Fri Oct 09 10:42:21 2026] [notice] Parent: Created child process 32340
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Fri Oct 09 10:42:21 2026] [notice] Child 32340: Child process is running
+[Fri Oct 09 10:42:21 2026] [notice] Child 32340: Acquired the start mutex.
+[Fri Oct 09 10:42:21 2026] [notice] Child 32340: Starting 500 worker threads.
+[Fri Oct 09 10:42:21 2026] [notice] Child 32340: Starting thread to listen on port 81.
+[Fri Oct 09 10:44:12 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/shenshoufan.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:44:13 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/mailtip.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:45:44 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/n/BOSS_qiankunmoshen.pak, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:46:07 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/pt_huiwu.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:46:09 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/att_fire.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:46:26 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/ef/sj_zhufu_num.ani, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:46:31 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/n/B01049.pak, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:46:42 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/death_woman.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:49:40 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/ef/jinlevel1.ani, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:51:34 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/n/A0702301.pak, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 10:52:23 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/death_man.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:00:38 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/shenshoufan.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:00:38 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/mailtip.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:00:52 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/i/null.png, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:01:25 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/pt_huiwu.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:01:33 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/att_fire.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:01:46 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/death_woman.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:02:00 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/ef/sj_zhufu_num.ani, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:08:26 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/shenshoufan.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:08:27 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/mailtip.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Fri Oct 09 11:08:37 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/ef/sj_zhufu_num.ani, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Wed Oct 14 13:15:32 2026] [warn] pid file D:/DNTC/GPHWEB/Apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Wed Oct 14 13:15:32 2026] [notice] Apache/2.2.13 (Win32) PHP/5.2.10 configured -- resuming normal operations
+[Wed Oct 14 13:15:32 2026] [notice] Server built: Aug  6 2009 15:50:50
+[Wed Oct 14 13:15:32 2026] [notice] Parent: Created child process 30136
+Apache server shutdown initiated...
+ load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Wed Oct 14 13:15:32 2026] [notice] Child 30136: Child process is running
+[Wed Oct 14 13:15:32 2026] [notice] Child 30136: Acquired the start mutex.
+[Wed Oct 14 13:15:32 2026] [notice] Child 30136: Starting 500 worker threads.
+[Wed Oct 14 13:15:32 2026] [notice] Child 30136: Starting thread to listen on port 81.
+[Wed Oct 14 13:15:33 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/favicon.ico, referer: http://127.0.0.1:81/
+[Wed Oct 14 13:16:42 2026] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 14 13:16:42 2026] [notice] Child 30136: Exit event signaled. Child process is ending.
+[Wed Oct 14 13:16:43 2026] [notice] Child 30136: Released the start mutex
+[Wed Oct 14 13:16:44 2026] [notice] Child 30136: All worker threads have exited.
+[Wed Oct 14 13:16:44 2026] [notice] Child 30136: Child process is exiting
+[Wed Oct 14 13:16:44 2026] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Wed Oct 14 13:17:05 2026] [notice] Apache/2.2.13 (Win32) PHP/5.2.10 configured -- resuming normal operations
+[Wed Oct 14 13:17:05 2026] [notice] Server built: Aug  6 2009 15:50:50
+[Wed Oct 14 13:17:05 2026] [notice] Parent: Created child process 10440
+Apache server shutdown initiated...
+ load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Wed Oct 14 13:17:05 2026] [notice] Child 10440: Child process is running
+[Wed Oct 14 13:17:05 2026] [notice] Child 10440: Acquired the start mutex.
+[Wed Oct 14 13:17:05 2026] [notice] Child 10440: Starting 500 worker threads.
+[Wed Oct 14 13:17:05 2026] [notice] Child 10440: Starting thread to listen on port 81.
+[Wed Oct 14 13:26:21 2026] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 14 13:26:21 2026] [notice] Child 10440: Exit event signaled. Child process is ending.
+[Wed Oct 14 13:26:22 2026] [notice] Child 10440: Released the start mutex
+[Wed Oct 14 13:26:23 2026] [notice] Child 10440: All worker threads have exited.
+[Wed Oct 14 13:26:23 2026] [notice] Child 10440: Child process is exiting
+[Wed Oct 14 13:26:23 2026] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Wed Oct 14 13:29:52 2026] [notice] Apache/2.2.13 (Win32) PHP/5.2.10 configured -- resuming normal operations
+[Wed Oct 14 13:29:52 2026] [notice] Server built: Aug  6 2009 15:50:50
+[Wed Oct 14 13:29:52 2026] [notice] Parent: Created child process 24424
+Apache server shutdown initiated...
+ load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Wed Oct 14 13:29:52 2026] [notice] Child 24424: Child process is running
+[Wed Oct 14 13:29:52 2026] [notice] Child 24424: Acquired the start mutex.
+[Wed Oct 14 13:29:52 2026] [notice] Child 24424: Starting 500 worker threads.
+[Wed Oct 14 13:29:52 2026] [notice] Child 24424: Starting thread to listen on port 81.
+[Wed Oct 14 13:31:19 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/shenshoufan.mp3, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:31:20 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/mailtip.mp3, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:31:21 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/pt_huiwu.mp3, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:31:39 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/att_fire.mp3, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:31:43 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/s/death_woman.mp3, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:32:07 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/i/null.png, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:33:40 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/ef/jinlevel1.ani, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:33:45 2026] [error] [client 127.0.0.1] File does not exist: D:/DNTC/GPHWEB/wwwroot/res/tw/r/ef/sj_zhufu_num.ani, referer: http://127.0.0.1:81/game.php
+[Wed Oct 14 13:34:43 2026] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 14 13:34:43 2026] [notice] Child 24424: Exit event signaled. Child process is ending.
+[Wed Oct 14 13:34:44 2026] [notice] Child 24424: Released the start mutex
+[Wed Oct 14 13:34:45 2026] [notice] Child 24424: All worker threads have exited.
+[Wed Oct 14 13:34:45 2026] [notice] Child 24424: Child process is exiting
+[Wed Oct 14 13:34:45 2026] [notice] Parent: Child process exited successfully.

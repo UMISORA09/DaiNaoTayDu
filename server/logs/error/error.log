@@ -75851,3 +75851,460 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 2026-10-07 16:46:09 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
 2026-10-07 16:46:09 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
 2026-10-07 16:46:09 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-09 10:43:38 [com.xianling.io.SafeServiceListener]-[ERROR]-[main] no need to start flash safe service.
+2026-10-09 10:43:46 [com.xianling.io.NetListener]-[ERROR]-[main] client's io is listening to port[8008]
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] can not find zuBaoConfig:@zhujue130
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:46:42 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 10:49:11 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] batch2Db error
+java.sql.BatchUpdateException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1669) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:1085) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor$Batch.executeBatch(SqlExecutor.java:611) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeBatch(SqlExecutor.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.executeBatch(SqlMapExecutorDelegate.java:759) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.executeBatch(SqlMapSessionImpl.java:184) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.executeBatch(SqlMapClientImpl.java:164) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:264) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+2026-10-09 10:49:11 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] single2Db error,entity info, entityName RolePetZhenfa: {"jinjieData":"{}","jinjieFailCount":0,"jinjieTime":1791517451498,"petUpgradeCount":0,"petUpgradeTime":1791517451498,"pirmaryKeyName":"userRoleId","primaryKeyValue":"fu0UR1-15-0-1","upgradeExp":0,"userRoleId":"fu0UR1-15-0-1","version":"1791517451498","zhenfaId":"1","zhenfaPet":"{}"}
+com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the insertRolePetZhenfa-InlineParameterMap.  
+--- Check the statement (update failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:107) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.insert(SqlMapExecutorDelegate.java:393) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.insert(SqlMapSessionImpl.java:82) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.insert(SqlMapClientImpl.java:58) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.execute(AsyncWriteDataContainer.java:311) ~[dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:275) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeUpdate(SqlExecutor.java:80) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteUpdate(MappedStatement.java:216) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:94) ~[ibatis-2.3.4.726.jar:?]
+	... 9 more
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] can not find zuBaoConfig:@zhujue130
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:01:46 [error_logger]-[ERROR]-[pool-47-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] can not find zuBaoConfig:@zhujue130
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:03:58 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-09 11:04:11 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] batch2Db error
+java.sql.BatchUpdateException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1669) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:1085) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor$Batch.executeBatch(SqlExecutor.java:611) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeBatch(SqlExecutor.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.executeBatch(SqlMapExecutorDelegate.java:759) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.executeBatch(SqlMapSessionImpl.java:184) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.executeBatch(SqlMapClientImpl.java:164) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:264) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+2026-10-09 11:04:11 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] single2Db error,entity info, entityName RolePetZhenfa: {"jinjieData":"{}","jinjieFailCount":0,"jinjieTime":1791518437501,"petUpgradeCount":0,"petUpgradeTime":1791518437501,"pirmaryKeyName":"userRoleId","primaryKeyValue":"fu0UR1-15-0-1","upgradeExp":0,"userRoleId":"fu0UR1-15-0-1","version":"1791518437501","zhenfaId":"1","zhenfaPet":"{}"}
+com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the insertRolePetZhenfa-InlineParameterMap.  
+--- Check the statement (update failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:107) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.insert(SqlMapExecutorDelegate.java:393) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.insert(SqlMapSessionImpl.java:82) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.insert(SqlMapClientImpl.java:58) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.execute(AsyncWriteDataContainer.java:311) ~[dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:275) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeUpdate(SqlExecutor.java:80) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteUpdate(MappedStatement.java:216) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:94) ~[ibatis-2.3.4.726.jar:?]
+	... 9 more
+2026-10-09 11:08:41 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] batch2Db error
+java.sql.BatchUpdateException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1669) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:1085) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor$Batch.executeBatch(SqlExecutor.java:611) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeBatch(SqlExecutor.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.executeBatch(SqlMapExecutorDelegate.java:759) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.executeBatch(SqlMapSessionImpl.java:184) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.executeBatch(SqlMapClientImpl.java:164) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:264) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+2026-10-09 11:08:41 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] single2Db error,entity info, entityName RolePetZhenfa: {"jinjieData":"{}","jinjieFailCount":0,"jinjieTime":1791518905194,"petUpgradeCount":0,"petUpgradeTime":1791518905194,"pirmaryKeyName":"userRoleId","primaryKeyValue":"fu0UR1-15-0-1","upgradeExp":0,"userRoleId":"fu0UR1-15-0-1","version":"1791518905194","zhenfaId":"1","zhenfaPet":"{}"}
+com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the insertRolePetZhenfa-InlineParameterMap.  
+--- Check the statement (update failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:107) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.insert(SqlMapExecutorDelegate.java:393) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.insert(SqlMapSessionImpl.java:82) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.insert(SqlMapClientImpl.java:58) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.execute(AsyncWriteDataContainer.java:311) ~[dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:275) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeUpdate(SqlExecutor.java:80) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteUpdate(MappedStatement.java:216) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:94) ~[ibatis-2.3.4.726.jar:?]
+	... 9 more
+2026-10-14 13:31:04 [com.xianling.io.SafeServiceListener]-[ERROR]-[main] no need to start flash safe service.
+2026-10-14 13:31:11 [com.xianling.io.NetListener]-[ERROR]-[main] client's io is listening to port[8008]
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] can not find zuBaoConfig:@zhujue130
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:31:43 [error_logger]-[ERROR]-[pool-46-thread-1] goodsEnterStage no valid point: mapId:120, x:96, y:5
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:33:12 [error_logger]-[ERROR]-[pool-48-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-14 13:34:37 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] batch2Db error
+java.sql.BatchUpdateException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1669) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:1085) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor$Batch.executeBatch(SqlExecutor.java:611) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeBatch(SqlExecutor.java:118) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.executeBatch(SqlMapExecutorDelegate.java:759) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.executeBatch(SqlMapSessionImpl.java:184) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.executeBatch(SqlMapClientImpl.java:164) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:264) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+2026-10-14 13:34:37 [com.kernel.data.write.async_1.AsyncWriteDataContainer]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Writer-0] single2Db error,entity info, entityName RolePetZhenfa: {"jinjieData":"{}","jinjieFailCount":0,"jinjieTime":1791959478421,"petUpgradeCount":0,"petUpgradeTime":1791959478421,"pirmaryKeyName":"userRoleId","primaryKeyValue":"fu0UR1-15-0-1","upgradeExp":0,"userRoleId":"fu0UR1-15-0-1","version":"1791959478421","zhenfaId":"1","zhenfaPet":"{}"}
+com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred while applying a parameter map.  
+--- Check the insertRolePetZhenfa-InlineParameterMap.  
+--- Check the statement (update failed).  
+--- Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:107) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate.insert(SqlMapExecutorDelegate.java:393) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl.insert(SqlMapSessionImpl.java:82) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.impl.SqlMapClientImpl.insert(SqlMapClientImpl.java:58) ~[ibatis-2.3.4.726.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.execute(AsyncWriteDataContainer.java:311) ~[dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteDataContainer.sync(AsyncWriteDataContainer.java:275) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.sync(AsyncWriteManager.java:346) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$StatisticWriter.sync(AsyncWriteManager.java:293) [dntg_start.jar:?]
+	at com.kernel.data.write.async_1.AsyncWriteManager$Writer.run(AsyncWriteManager.java:334) [dntg_start.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'fu0UR1-15-0-1' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.6.0_31]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.6.0_31]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:381) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:998) ~[mysql-connector-java-5.1.5-bin.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:989) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.ibatis.sqlmap.engine.execution.SqlExecutor.executeUpdate(SqlExecutor.java:80) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.sqlExecuteUpdate(MappedStatement.java:216) ~[ibatis-2.3.4.726.jar:?]
+	at com.ibatis.sqlmap.engine.mapping.statement.MappedStatement.executeUpdate(MappedStatement.java:94) ~[ibatis-2.3.4.726.jar:?]
+	... 9 more

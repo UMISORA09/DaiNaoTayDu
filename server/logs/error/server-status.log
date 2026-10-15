@@ -10621,3 +10621,358 @@ stage
 2026-10-07 16:50:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
 2026-10-07 16:50:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 734 M,?????? 742 M,?????? 0.044 M
 2026-10-07 16:50:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-09 10:43:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 467 M,????? 295 M,?????? 682 M,?????? 0 M
+2026-10-09 10:43:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-09 10:43:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 568 M,????? 434 M,?????? 682 M,?????? 0 M
+2026-10-09 10:43:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-09 10:43:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 638 M,?????? 682 M,?????? 0 M
+2026-10-09 10:43:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-09 10:44:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 608 M,?????? 682 M,?????? 0 M
+2026-10-09 10:44:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-09 10:44:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 640 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:44:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:44:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 649 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:44:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:44:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 633 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:44:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:45:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 639 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:45:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:45:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 641 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:45:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:45:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 604 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:45:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:45:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 612 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:45:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:46:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 621 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:46:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:46:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 636 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:46:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:46:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 645 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:46:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:46:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 656 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:46:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:47:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 664 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:47:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:47:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 672 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:47:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:47:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 680 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:47:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:47:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 605 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:47:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:48:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 618 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:48:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:48:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 636 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:48:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:48:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 649 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:48:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:48:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 661 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:48:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:49:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 675 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:49:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:49:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 606 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:49:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:49:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 617 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:49:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:49:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 630 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:49:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:50:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 642 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:50:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:50:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 661 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:50:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:50:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 676 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:50:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:50:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 602 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:50:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:51:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 612 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:51:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:51:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 620 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:51:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:51:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 628 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:51:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:51:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 636 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:51:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:52:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 647 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:52:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:52:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 663 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:52:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:52:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 675 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:52:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:52:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 599 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:52:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:53:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 606 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:53:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:53:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 615 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:53:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:53:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 623 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:53:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:53:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 630 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:53:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:54:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 639 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:54:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:54:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 655 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:54:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:54:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 664 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:54:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:54:40 [server_status_logger]-[ERROR]-[BalanceBusinessExecutor-Cleaner-public_balance_executor] 
+node-control
+	node-control-0  0
+	node-control-1  0
+	node-control-2  0
+	node-control-3  0
+	node-control-4  0
+	node-control-5  0
+system
+	system-0  222
+login
+	login-0  0
+	login-1  0
+	login-2  0
+	login-3  0
+	login-4  0
+	login-5  0
+public
+	public-0  144
+	public-1  3
+	public-2  4
+guild
+	guild-0  5
+2026-10-09 10:54:41 [server_status_logger]-[ERROR]-[BalanceBusinessExecutor-Cleaner-bus_balance_executor] 
+bus_cache
+	bus_cache-0  520
+	bus_cache-1  0
+	bus_cache-2  0
+system
+	system-0  0
+slow_group
+	slow_group-0  0
+bus_init
+	bus_init-0  0
+	bus_init-1  0
+	bus_init-2  0
+	bus_init-3  0
+	bus_init-4  0
+	bus_init-5  0
+stage_control
+	stage_control-0  4
+	stage_control-1  0
+	stage_control-2  0
+kuafu
+	kuafu-0  2
+2026-10-09 10:54:42 [server_status_logger]-[ERROR]-[BalanceBusinessExecutor-Cleaner-stage_balance_executor] 
+system
+	system-0  2
+stage
+	stage-0  0
+	stage-1  46222
+	stage-2  46272
+	stage-3  46215
+	stage-4  1456
+	stage-5  8
+	stage-6  664
+	stage-7  13
+	stage-8  0
+	stage-9  0
+2026-10-09 10:54:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 673 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:54:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:55:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 682 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:55:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:55:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 662 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:55:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:55:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 674 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:55:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:55:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 599 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:55:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:56:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 607 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:56:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:56:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 621 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:56:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:56:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 629 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:56:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:56:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 637 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:56:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:57:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 645 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:57:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:57:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 653 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:57:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:57:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 664 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:57:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:57:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 672 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:57:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:58:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 680 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:58:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:58:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 611 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:58:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:58:27 [server_status_logger]-[ERROR]-[AsyncWriteManager[asyncWriteManager]-Cleaner] AsyncWriteManager[asyncWriteManager]:cleaned 0,remain 1
+2026-10-09 10:58:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 623 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:58:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:58:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 635 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:58:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:59:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 647 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:59:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:59:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 659 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:59:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:59:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 670 M,?????? 682 M,?????? 0.046 M
+2026-10-09 10:59:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 10:59:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 597 M,?????? 682 M,?????? 0.044 M
+2026-10-09 10:59:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:00:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 608 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:00:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:00:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 627 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:00:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:00:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 639 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:00:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:00:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 664 M,?????? 682 M,?????? 0.089 M
+2026-10-09 11:00:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:01:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 676 M,?????? 682 M,?????? 0.089 M
+2026-10-09 11:01:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:01:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 602 M,?????? 682 M,?????? 0.089 M
+2026-10-09 11:01:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:01:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 616 M,?????? 682 M,?????? 0.089 M
+2026-10-09 11:01:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:01:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 630 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:01:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:02:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 644 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:02:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:02:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 662 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:02:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:02:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 675 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:02:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:02:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 601 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:02:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:03:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 612 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:03:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:03:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 620 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:03:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:03:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 630 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:03:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:03:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 640 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:03:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:04:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 649 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:04:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:04:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 664 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:04:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:04:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 672 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:04:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:04:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 679 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:04:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:05:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 604 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:05:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:05:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 616 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:05:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:05:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 628 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:05:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:05:40 [server_status_logger]-[ERROR]-[BalanceBusinessExecutor-Cleaner-public_balance_executor] 
+node-control
+	node-control-0  0
+	node-control-1  0
+	node-control-2  0
+	node-control-3  0
+	node-control-4  0
+	node-control-5  0
+system
+	system-0  5
+login
+	login-0  3
+	login-1  0
+	login-2  0
+	login-3  0
+	login-4  0
+	login-5  0
+public
+	public-0  0
+	public-1  11
+	public-2  10
+guild
+	guild-0  7
+2026-10-09 11:05:41 [server_status_logger]-[ERROR]-[BalanceBusinessExecutor-Cleaner-bus_balance_executor] 
+bus_cache
+	bus_cache-0  144
+	bus_cache-1  0
+	bus_cache-2  0
+system
+	system-0  0
+slow_group
+	slow_group-0  1
+bus_init
+	bus_init-0  2
+	bus_init-1  0
+	bus_init-2  0
+	bus_init-3  0
+	bus_init-4  0
+	bus_init-5  0
+stage_control
+	stage_control-0  6
+	stage_control-1  0
+	stage_control-2  0
+kuafu
+	kuafu-0  3
+2026-10-09 11:05:42 [server_status_logger]-[ERROR]-[BalanceBusinessExecutor-Cleaner-stage_balance_executor] 
+system
+	system-0  8
+stage
+	stage-0  1
+	stage-1  46402
+	stage-2  46384
+	stage-3  46439
+	stage-4  232
+	stage-5  546
+	stage-6  0
+	stage-7  691
+	stage-8  0
+	stage-9  0
+2026-10-09 11:05:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 640 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:05:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:06:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 652 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:06:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:06:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 669 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:06:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:06:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 681 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:06:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:06:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 661 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:06:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:07:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 673 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:07:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:07:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 599 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:07:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:07:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 611 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:07:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:07:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 622 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:07:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:08:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 635 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:08:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:08:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 651 M,?????? 682 M,?????? 0.044 M
+2026-10-09 11:08:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-09 11:08:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 682 M,????? 676 M,?????? 682 M,?????? 0.089 M
+2026-10-09 11:08:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:30:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 699 M,????? 431 M,?????? 742 M,?????? 0 M
+2026-10-14 13:30:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-14 13:31:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 699 M,????? 514 M,?????? 742 M,?????? 0 M
+2026-10-14 13:31:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-14 13:31:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 658 M,?????? 742 M,?????? 0 M
+2026-10-14 13:31:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:0
+2026-10-14 13:31:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 703 M,?????? 742 M,?????? 0.046 M
+2026-10-14 13:31:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:31:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 717 M,?????? 742 M,?????? 0.046 M
+2026-10-14 13:31:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:32:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 730 M,?????? 742 M,?????? 0.046 M
+2026-10-14 13:32:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:32:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 721 M,?????? 742 M,?????? 0.046 M
+2026-10-14 13:32:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:32:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 731 M,?????? 742 M,?????? 0.046 M
+2026-10-14 13:32:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:32:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 717 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:32:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:33:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 723 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:33:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:33:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 731 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:33:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:33:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 735 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:33:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:33:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 739 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:33:45 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:34:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 719 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:34:00 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:34:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 730 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:34:15 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
+2026-10-14 13:34:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] ???????? 742 M,????? 734 M,?????? 742 M,?????? 0.044 M
+2026-10-14 13:34:30 [server_status_logger]-[ERROR]-[quartzScheduler_Worker-1] mina session count:1
