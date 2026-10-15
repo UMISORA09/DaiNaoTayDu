@@ -13,16 +13,15 @@ start "" "%~dp0GPHWEB\MySQL5\bin\mysqld.exe" --defaults-file="%~dp0GPHWEB\MySQL5
 timeout /t 2 >nul
 
 :: Khoi dong Apache
-echo [2/2] Dang khoi dong Apache Web Server (Port 81)...
+echo [2/2] Dang khoi dong Apache Web Server (Port 8089)...
 start "" "%~dp0GPHWEB\Apache2\bin\httpd.exe" -d "%~dp0GPHWEB\Apache2"
 
 timeout /t 2 >nul
 
 echo ===================================================
 echo   DA KHOI DONG THANH CONG!
-echo   Dang mo trinh duyet: http://127.0.0.1:81/
+echo   Dang mo trinh duyet: http://127.0.0.1:8089/
 echo ===================================================
-start http://127.0.0.1:81/
+start http://127.0.0.1:8089/
 
 exit
-

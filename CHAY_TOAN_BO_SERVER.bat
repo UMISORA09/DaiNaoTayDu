@@ -11,7 +11,13 @@ start "" "%~dp0GPHWEB\Apache2\bin\httpd.exe" -d "%~dp0GPHWEB\Apache2"
 timeout /t 2 /nobreak >nul
 
 echo [3/4] Khoi dong Gateway...
-start "" "%~dp0[2].登录器网关.exe"
+if exist "%~dp0Gateway.exe" (
+    start "" "%~dp0Gateway.exe"
+) else if exist "%~dp0_2_~1.EXE" (
+    start "" "%~dp0_2_~1.EXE"
+) else (
+    start "" "%~dp0[2].登录器网关.exe"
+)
 timeout /t 2 /nobreak >nul
 
 echo [4/4] Khoi dong Game Server...
@@ -23,6 +29,6 @@ echo ========================================================
 echo   DA KHOI DONG XONG! MO TRINH DUYET TRONG 3 GIAY...
 echo ========================================================
 timeout /t 3 /nobreak >nul
-start http://127.0.0.1:81/
+start http://127.0.0.1:8089/
 
 exit
