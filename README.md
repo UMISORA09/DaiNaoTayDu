@@ -106,23 +106,31 @@ c:\Cassavas\DNTC/
 
 ## 4. Quy Trình Khởi Động Server
 
-1. **Khởi động Apache & MySQL:**
-   - Mở `[1].网站数据库.exe`.
-   - Kiểm tra cả 2 đèn trạng thái **Apache** và **MySQL** chuyển sang màu xanh lá.
-2. **Khởi động Cổng Đăng Nhập:**
-   - Chạy `[2].登录器网关.exe`.
-3. **Khởi động Java Core Server:**
-   - Chạy `[3].启动服务端.bat` (hoặc chạy trực tiếp `server/run_test.bat`).
-   - Lệnh thực thi JVM:
-     ```cmd
-     jre6\bin\java.exe -cp "./;lib/*;lib/Jetty/*;extensions/__lib__/*" -server -Xms256m -Xmx1024m -XX:PermSize=256M -XX:MaxPermSize=256M -jar dntg_start.jar
-     ```
-   - Chờ đến khi dòng chữ sau xuất hiện:
-     ```text
-     ================== server started successfully ==================
-     ```
-4. **Vào Game:**
-   - Mở trình duyệt hỗ trợ Flash và truy cập `http://127.0.0.1:8089/game.php`.
+Hệ thống đã được chuẩn hóa với bộ công cụ điều khiển trung tâm tự động hóa:
+
+### Cách 1: Sử Dụng Trung Tâm Điều Khiển Đa Năng (Khuyên Dùng)
+- **Batch Script:** Chạy file [`SERVER.bat`](SERVER.bat) để mở Menu giao diện điều khiển:
+  - `[1]` Khởi động toàn bộ dịch vụ (MySQL -> Apache -> Gateway -> Java Server -> Mở game).
+  - `[2]` Tắt toàn bộ hệ thống an toàn.
+  - `[3]` Khởi động lại toàn bộ (Restart).
+  - `[9]` Kiểm tra trạng thái tiến trình và cổng mạng (`status`).
+- **PowerShell:** Chạy lệnh:
+  ```powershell
+  .\server.ps1          # Mo menu quan tri tuong tac
+  .\server.ps1 start    # Khoi dong nhanh toan bo
+  .\server.ps1 stop     # Tat sach tien trinh
+  .\server.ps1 status   # Kiem tra cong va tien trinh dang chay
+  ```
+
+### Cách 2: Khởi Động / Tắt Nhanh 1-Click
+- **Khởi động:** Nhấp đúp vào [`START_SERVER.bat`](START_SERVER.bat) (Tự động kiểm tra và bật tuần tự các dịch vụ cần thiết).
+- **Tắt toàn bộ:** Nhấp đúp vào [`STOP_SERVER.bat`](STOP_SERVER.bat) (Đóng sạch sẽ các tiến trình Java, Apache, MySQL, Gateway).
+
+### Cách 3: Khởi Động Thủ Công Từng Dịch Vụ
+1. **Database & Web:** Khởi động MySQL và Apache qua [`SERVER.bat`](SERVER.bat) (lựa chọn `[4]`) hoặc `[1].网站数据库.exe`.
+2. **Gateway:** Khởi động [`Gateway.exe`](Gateway.exe).
+3. **Java Core Server:** Chạy [`server/run_server.bat`](server/run_server.bat) (hoặc `server/run_test.bat`).
+4. **Vào Game:** Mở trình duyệt hỗ trợ Flash và truy cập `http://127.0.0.1:8089/game.php`.
 
 ---
 
