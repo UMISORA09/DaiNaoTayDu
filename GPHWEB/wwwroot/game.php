@@ -142,7 +142,7 @@ html,body{
   	window.onbeforeunload = function(event){
 		if(unloadFlag)
 		{
-			if(addfavorite('baidu-大闹天宫','http://127.0.0.1:81')==false){
+			if(addfavorite('baidu-大闹天宫','http://127.0.0.1:8089')==false){
 				return unloadStr;
 			}
 		}

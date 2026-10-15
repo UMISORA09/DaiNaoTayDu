@@ -168,11 +168,11 @@ if ($_GET[go]=="edit")
   </tr>
    <tr>
     <td height="30" align="right" valign="middle">游戏资源目录(电信)：</td>
-    <td valign="middle" class="huise_font"><input name="resdx" id="website" type="text" size="50" class="inputclass inputtitle" value="http://127.0.0.1:81/res/" /></td>
+    <td valign="middle" class="huise_font"><input name="resdx" id="website" type="text" size="50" class="inputclass inputtitle" value="http://127.0.0.1:8089/res/" /></td>
   </tr>
   <tr>
     <td height="30" align="right" valign="middle">游戏资源目录(网通)：</td>
-    <td valign="middle" class="huise_font"><input name="reswt" id="website" type="text" size="50" class="inputclass inputtitle" value="http://127.0.0.1:81/res/" /></td>
+    <td valign="middle" class="huise_font"><input name="reswt" id="website" type="text" size="50" class="inputclass inputtitle" value="http://127.0.0.1:8089/res/" /></td>
   </tr>
 <tr>
     <td height="30" align="right" valign="middle">登陆地址(电信IP)：</td>

@@ -75851,3 +75851,5 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 2026-10-07 16:46:09 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
 2026-10-07 16:46:09 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
 2026-10-07 16:46:09 [error_logger]-[ERROR]-[pool-49-thread-1] goodsEnterStage no valid point: mapId:117, x:10, y:21
+2026-10-15 09:09:47 [com.xianling.io.SafeServiceListener]-[ERROR]-[main] no need to start flash safe service.
+2026-10-15 09:10:09 [com.xianling.io.NetListener]-[ERROR]-[main] client's io is listening to port[8008]

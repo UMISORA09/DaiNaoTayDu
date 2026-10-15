@@ -1086,3 +1086,23 @@ java.io.IOException: An existing connection was forcibly closed by the remote ho
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source) [?:1.6.0_31]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.6.0_31]
 	at java.lang.Thread.run(Unknown Source) [?:1.6.0_31]
+2026-10-15 09:10:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:11:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:12:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:13:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:14:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:15:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:16:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:17:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:18:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:19:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:20:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:21:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:22:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:23:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:24:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:25:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:26:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:27:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:28:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 
+2026-10-15 09:29:00 [io_error_logger]-[ERROR]-[quartzScheduler_Worker-1] no kuafu config 

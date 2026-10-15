@@ -12760,3 +12760,212 @@ java.lang.NullPointerException
 2026-10-07 16:48:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
 2026-10-07 16:50:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
 2026-10-07 16:50:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:09:02 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/6/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\6\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:03 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/17/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\17\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:04 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/26/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\26\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:04 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/27/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\27\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:04 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/28/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\28\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:04 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/30/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\30\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:04 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/31/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\31\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:04 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/32/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\32\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:05 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/50/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\50\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:05 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/53/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\53\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:05 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/54/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\54\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:05 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/55/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\55\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:06 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/61/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\61\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:06 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/64/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\64\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:07 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/75/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\75\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:08 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/76/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\76\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:08 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/77/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\77\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:08 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/78/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\78\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:09 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/85/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\85\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/97/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\97\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/98/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\98\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/99/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\99\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/102/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\102\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/103/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\103\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/105/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\105\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/106/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\106\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/109/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\109\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/110/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\110\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:10 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/111/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\111\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:11 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/112/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\112\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:11 [config_error_logger]-[ERROR]-[main] load config error :config/game/map_config/641/monster.mmjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\map_config\641\monster.mm (The system cannot find the file specified)
+2026-10-15 09:09:14 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/yuanbaoxiaofeiyouhuika.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\yuanbaoxiaofeiyouhuika.jat (The system cannot find the file specified)
+2026-10-15 09:09:14 [config_error_logger]-[ERROR]-[main] cannt find config with yuanbaoxiaofeiyouhuika.jat
+2026-10-15 09:09:15 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/jingyanyu.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\jingyanyu.jat (The system cannot find the file specified)
+2026-10-15 09:09:15 [config_error_logger]-[ERROR]-[main] cannt find config with jingyanyu.jat
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/chongwubiao.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\chongwubiao.jat (The system cannot find the file specified)
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] cannt find config with chongwubiao.jat
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/chongwushengjibiao.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\chongwushengjibiao.jat (The system cannot find the file specified)
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] cannt find config with chongwushengjibiao.jat
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/chongwutujianbiao.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\chongwutujianbiao.jat (The system cannot find the file specified)
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] cannt find config with chongwutujianbiao.jat
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/chongwuzshouhubiao.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\chongwuzshouhubiao.jat (The system cannot find the file specified)
+2026-10-15 09:09:18 [config_error_logger]-[ERROR]-[main] cannt find config with chongwuzshouhubiao.jat
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/shenqifabao.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\shenqifabao.jat (The system cannot find the file specified)
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] cannt find config with shenqifabao.jat
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/shenqikaiqixiaohao.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\shenqikaiqixiaohao.jat (The system cannot find the file specified)
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] cannt find config with shenqikaiqixiaohao.jat
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/shenqijinengjiangecd.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\shenqijinengjiangecd.jat (The system cannot find the file specified)
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] cannt find config with shenqijinengjiangecd.jat
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/hunjiebiao.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\hunjiebiao.jat (The system cannot find the file specified)
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] cannt find config with hunjiebiao.jat
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/hunjieqianghua.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\hunjieqianghua.jat (The system cannot find the file specified)
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] cannt find config with hunjieqianghua.jat
+2026-10-15 09:09:20 [config_error_logger]-[ERROR]-[main] load sign error :XianShangHuoDong
+2026-10-15 09:09:21 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/bangpaishouhu.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\bangpaishouhu.jat (The system cannot find the file specified)
+2026-10-15 09:09:21 [config_error_logger]-[ERROR]-[main] cannt find config with bangpaishouhu.jat
+2026-10-15 09:09:26 [config_error_logger]-[ERROR]-[main] fu0
+java.lang.RuntimeException: convert to CompositiveActivityClientType error for intType:36
+	at com.xianling.bus.huodong.constants.CompositiveActivityClientType.convert(CompositiveActivityClientType.java:135) ~[dntg_start.jar:?]
+	at com.xianling.bus.huodong.configure.export.impl.ZongheHuodongConfigExportServiceImpl.configureDataResolve(ZongheHuodongConfigExportServiceImpl.java:101) ~[dntg_start.jar:?]
+	at com.xianling.configure.parser.AbsConfigureParser.init(AbsConfigureParser.java:57) [dntg_start.jar:?]
+	at com.xianling.configure.parser.AbsRefreshAbleConfigureParser.init(AbsRefreshAbleConfigureParser.java:25) [dntg_start.jar:?]
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:340) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:293) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:130) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:394) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1405) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:827) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:769) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:686) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1064) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:827) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:769) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:686) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1064) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:827) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:769) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:686) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1064) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:827) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:769) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:686) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:283) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1064) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.share.GlobalChuanShare.initSpringContext(GlobalChuanShare.java:16) [dntg_start.jar:?]
+	at com.xianling.share.GlobalChuanShare.init(GlobalChuanShare.java:12) [dntg_start.jar:?]
+	at com.xianling.start.XianlingStart.main(XianlingStart.java:38) [dntg_start.jar:?]
+2026-10-15 09:09:27 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/tiangongningdan.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\tiangongningdan.jat (The system cannot find the file specified)
+2026-10-15 09:09:27 [config_error_logger]-[ERROR]-[main] cannt find config with tiangongningdan.jat
+2026-10-15 09:09:27 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/tiangongfangjicheng.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\tiangongfangjicheng.jat (The system cannot find the file specified)
+2026-10-15 09:09:27 [config_error_logger]-[ERROR]-[main] cannt find config with tiangongfangjicheng.jat
+2026-10-15 09:09:28 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/kaifujava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\kaifu (The system cannot find the file specified)
+2026-10-15 09:09:28 [config_error_logger]-[ERROR]-[main] cannt find config with kaifu
+2026-10-15 09:09:29 [config_error_logger]-[ERROR]-[main] kuafuboss.jat
+java.lang.NullPointerException
+	at com.xianling.stage.configure.export.impl.GuaiWuRefreshAbstractConfigExportService.fillMonsterRefreshConfig(GuaiWuRefreshAbstractConfigExportService.java:108) ~[dntg_start.jar:?]
+	at com.xianling.bus.kuafu.configure.export.impl.KuaFuMonsterRefreshConfigExportServiceImpl.fillMonsterRefreshConfig(KuaFuMonsterRefreshConfigExportServiceImpl.java:24) ~[dntg_start.jar:?]
+	at com.xianling.bus.kuafu.configure.export.impl.KuaFuMonsterRefreshConfigExportServiceImpl.fillMonsterRefreshConfig(KuaFuMonsterRefreshConfigExportServiceImpl.java:11) ~[dntg_start.jar:?]
+	at com.xianling.stage.configure.export.impl.GuaiWuRefreshAbstractConfigExportService.configureDataResolve(GuaiWuRefreshAbstractConfigExportService.java:43) ~[dntg_start.jar:?]
+	at com.xianling.configure.parser.AbsConfigureParser.init(AbsConfigureParser.java:57) [dntg_start.jar:?]
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.6.0_31]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.6.0_31]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:340) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:293) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:130) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:394) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1405) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563) [org.springframework.beans-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:872) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:423) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83) [org.springframework.context-3.0.2.RELEASE.jar:3.0.2.RELEASE]
+	at com.xianling.share.GlobalChuanShare.initSpringContext(GlobalChuanShare.java:16) [dntg_start.jar:?]
+	at com.xianling.share.GlobalChuanShare.init(GlobalChuanShare.java:12) [dntg_start.jar:?]
+	at com.xianling.start.XianlingStart.main(XianlingStart.java:38) [dntg_start.jar:?]
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/quanbutequan.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\quanbutequan.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with quanbutequan.jat
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/zhizuntequan.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\zhizuntequan.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with zhizuntequan.jat
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/zhouchanggudingjiangli.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\zhouchanggudingjiangli.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with zhouchanggudingjiangli.jat
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/zhouchangguaiwu.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\zhouchangguaiwu.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with zhouchangguaiwu.jat
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/zhouchangjiangli.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\zhouchangjiangli.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with zhouchangjiangli.jat
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/zhouchangjiangliduobei.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\zhouchangjiangliduobei.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with zhouchangjiangliduobei.jat
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/zhouchangjingyanshuaxin.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\zhouchangjingyanshuaxin.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with zhouchangjingyanshuaxin.jat
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/zhouchangrenwu.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\zhouchangrenwu.jat (The system cannot find the file specified)
+2026-10-15 09:09:36 [config_error_logger]-[ERROR]-[main] cannt find config with zhouchangrenwu.jat
+2026-10-15 09:09:44 [config_error_logger]-[ERROR]-[main] load config error :config/game/sys_config/name.jatjava.io.FileNotFoundException: C:\Cassavas\DNTC\server\config\game\sys_config\name.jat (The system cannot find the file specified)
+2026-10-15 09:09:44 [config_error_logger]-[ERROR]-[main] cannt find config with name.jat
+2026-10-15 09:10:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:10:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:12:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:12:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:14:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:14:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:16:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:16:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:18:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:18:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:20:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:20:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:22:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:22:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:24:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:24:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:26:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:26:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong
+2026-10-15 09:28:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] load sign error :XianShangHuoDong
+2026-10-15 09:28:00 [config_error_logger]-[ERROR]-[pool-2-thread-1] versionrefresh failed:XianShangHuoDong

@@ -1,6 +1,6 @@
 <?php
 $WebTitle='《大闹天宫》';
-$weburl='http://127.0.0.1:81/';   //推广地址
+$weburl='http://127.0.0.1:8089/';   //推广地址
 $tgyuanbao='5000';         //每个IP获得元宝数
 $db_type='mysql';
 $db_charset='utf8';

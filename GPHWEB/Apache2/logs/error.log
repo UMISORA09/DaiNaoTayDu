@@ -1925,3 +1925,20 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'D:\\server\\GPHWEB\\P
 [Wed Oct 07 16:49:56 2026] [error] [client 127.0.0.1] File does not exist: D:/server/GPHWEB/wwwroot/res/tw/r/s/shengjiangjindi.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
 [Wed Oct 07 16:49:58 2026] [error] [client 127.0.0.1] File does not exist: D:/server/GPHWEB/wwwroot/res/tw/r/n/BOSS_qiankunmoshen.pak, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
 [Wed Oct 07 16:50:16 2026] [error] [client 127.0.0.1] File does not exist: D:/server/GPHWEB/wwwroot/res/tw/r/s/shenshoufan.mp3, referer: http://127.0.0.1:81/game.php?s=1&roleid=398915522ff4b085934d4a07e55556d8&xl=dx
+[Thu Oct 15 09:04:37 2026] [warn] pid file C:/Cassavas/DNTC/GPHWEB/Apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Cassavas\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Cassavas\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Cassavas\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Thu Oct 15 09:04:39 2026] [notice] Apache/2.2.13 (Win32) PHP/5.2.10 configured -- resuming normal operations
+[Thu Oct 15 09:04:39 2026] [notice] Server built: Aug  6 2009 15:50:50
+[Thu Oct 15 09:04:39 2026] [notice] Parent: Created child process 12000
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Cassavas\\DNTC\\GPHWEB\\PHP5\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Cassavas\\DNTC\\GPHWEB\\PHP5\\ext\\php_mcrypt.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Cassavas\\DNTC\\GPHWEB\\PHP5\\ext\\php_mhash.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Thu Oct 15 09:04:39 2026] [notice] Child 12000: Child process is running
+[Thu Oct 15 09:04:39 2026] [notice] Child 12000: Acquired the start mutex.
+[Thu Oct 15 09:04:39 2026] [notice] Child 12000: Starting 500 worker threads.
+[Thu Oct 15 09:04:39 2026] [notice] Child 12000: Starting thread to listen on port 8089.
+[Thu Oct 15 09:10:03 2026] [error] [client 127.0.0.1] File does not exist: C:/Cassavas/DNTC/GPHWEB/wwwroot/favicon.ico, referer: http://127.0.0.1:8089/
+[Thu Oct 15 09:25:37 2026] [error] [client 127.0.0.1] File does not exist: C:/Cassavas/DNTC/GPHWEB/wwwroot/guanli/js/dialog, referer: http://127.0.0.1:8089/guanli/index.php
+[Thu Oct 15 09:25:37 2026] [error] [client 127.0.0.1] File does not exist: C:/Cassavas/DNTC/GPHWEB/wwwroot/guanli/images/logo.png, referer: http://127.0.0.1:8089/guanli/index.php

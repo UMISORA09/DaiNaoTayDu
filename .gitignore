@@ -1,0 +1,23 @@
+# Runtime Logs
+*.log
+*.err
+server/logs/
+GPHWEB/Apache2/logs/
+
+# Process IDs
+*.pid
+server/pid
+
+# PHP runtime cache & session
+GPHWEB/PHP5/sessiondata/*
+GPHWEB/PHP5/eaccelerator/*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.bak
